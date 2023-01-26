@@ -1,0 +1,58 @@
+body > div:first-of-type { /* Center the content within the page */
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+}
+body { /* Create a grey background around the content */
+	background: #565656;
+}
+
+table.wtable
+{
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+table.wtable th
+{
+	font-weight: normal;
+	padding: 10px 8px;
+	background: #7D98AB;
+	color: #fff;
+	font-size: 18px	;
+}
+.granate{background: #8C1D41!important;}
+table.wtable td
+{
+	padding: 10px 8px;
+	color: #333;
+}
+table.wtable .odd
+{
+	background: #f5f5f5;
+}
+
+table.wtable ul{margin: 0px!important;}
+.small-text{font-size: 12px;}
+.table-text{text-align: left !important;}
+
+.middle div {
+	position: absolute!important;
+	top: 50%!important;
+	transform: translateY(-50%)!important;
+}
+
+.HYPE_scene sup, sub {
+	font-size: 60% !important;
+	vertical-align: baseline!important;
+	position: relative!important;
+	top: -0.4em!important;
+}
+.HYPE_scene sub {
+	top: 0.4em!important;
+}
+.footnote{font-size: 12px!important;color: #212121!important;line-height: 15px!important;position:absolute; bottom:0px;}
+.popup.footnote {color:#ffffff!important; }

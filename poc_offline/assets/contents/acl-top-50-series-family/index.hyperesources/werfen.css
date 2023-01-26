@@ -1,0 +1,130 @@
+body > div:first-of-type {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+}
+body {
+	background: #565656;
+}
+.HYPE_scene ul.list-square
+{
+	list-style: none;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.HYPE_scene ul.list-square li {
+	padding-top: 0.5em;
+	padding-left: 1.0em;
+	text-indent: -.9em;
+}
+.HYPE_scene ul.list-square li:before {
+	font-family: FontAwesome;
+	font-size: 80%;
+	content: "\f0c8";
+	color: #00A3E0; /* or whatever color you prefer */
+}
+.HYPE_scene ul.list-minus
+{
+	list-style:none;
+	padding: 0;
+	margin: 0;
+}
+.HYPE_scene ul.list-minus li {
+	padding-top: 0;
+	padding-left: 1.0em;
+	text-indent: -.9em;
+	line-height: 140%;
+}
+
+.HYPE_scene ul.list-minus li:before {
+	font-family: FontAwesome;
+	font-size: 60%;
+	content: " ";
+	color: #00A3E0; /* or whatever color you prefer */
+}
+.HYPE_scene table.hor-zebra
+{
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+}
+.HYPE_scene table.hor-zebra caption
+{
+	font-weight: normal;
+	font-family: "pf_square_sans_proregular";
+	padding: 10px 8px;
+	background: #00a3e0;
+	color: #fff;
+}
+.HYPE_scene table.hor-zebra th
+{
+	font-weight: normal;
+	font-family: "pf_square_sans_proregular";
+	padding: 10px 8px;
+	background: #9BCAEA;
+	color: #fff;
+}
+.HYPE_scene table.hor-zebra td
+{
+	padding: 10px 8px;
+	color: #555;
+}
+.HYPE_scene table.hor-zebra .odd
+{
+	background: #f5f5f5;
+}
+
+.title1{font-size: 24px!important;line-height: 30px!important;}
+.body1{font-size: 16px!important;line-height: 20px!important;}
+.list1{font-size: 16px!important;line-height: 20px!important;}
+.link{font-size: 19px!important;}
+.link2{font-size: 19px!important;}
+.popup{font-size: 20px!important;line-height: 22px!important;}
+.reagents span {font-size: 36px!important;line-height: 40px!important;}
+.reagents ul {font-size: 18px!important;line-height: 22px!important;}
+.reagents p {font-size: 12px!important;line-height: 16px!important;}
+
+.middle {position: absolute!important;top: 50%!important;transform: translateY(-50%)!important;}
+
+ul.list-arrow {list-style: none!important;padding: 0;
+	margin: 0;
+	margin-top: 5px!important;
+}
+ul.list-arrow li {
+	padding-top: 0.5em;
+	text-indent: -.9em;
+}
+
+ul.list-arrow li:before {
+	font-family: FontAwesome;
+	content: " ";
+	color: #A1B000; /* or whatever color you prefer */
+	display: block;
+	float: left;
+	width: 1.2em;
+}
+sub{font-size: 60% !important;}
+sup{font-size: 60% !important;}
+
+
+ul#menu-bottom{margin-top: 17px!important;}
+
+
+ul#menu-bottom li {
+	display:inline;
+	margin-right: 20px;
+}
+
+.HYPE_scene #menu-bottom a  {
+	color: #ffffff !important;
+	text-decoration: none !important;
+	border-spacing: 6px !important;
+	font-size: 14px!important;
+	font-weight: bold;
+}
+
+a:hover{
+	cursor: pointer!important;}

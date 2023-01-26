@@ -1,0 +1,74 @@
+.icon-padlock {
+    position: relative;
+    width: 26px;
+    height: 26px;
+    display: block;
+    pointer-events: auto; 
+    position: absolute;
+    display: inline;
+    overflow: visible;
+    z-index: 15;
+    transform-origin: 50% 50%;
+    transform: translateX(18px) translateY(-6px) rotateY(0deg);
+}
+
+.icon-padlock:before {
+  content:'';
+  position: absolute;
+  top: 2px;
+  right: 49px;
+  width: 100%;
+  height: 100% ;
+  background: url(icon-padlock.png) no-repeat top;
+  background-size: contain;
+}
+
+.icon-wifi {
+    position: relative;
+    width: 21px;
+    height: 22px;
+    display: block;
+    pointer-events: auto; 
+    position: absolute;
+    display: inline;
+    overflow: visible;
+    z-index: 15;
+    transform-origin: 50% 50%;
+    transform: translateX(18px) translateY(-6px) rotateY(0deg);
+}
+
+.icon-wifi:before {
+  content:'';
+  position: absolute;
+  top: 6px;
+  right: 46px;
+  width: 100%;
+  height: 100% ;
+  background: url(icon-wifi.png) no-repeat top;
+  background-size: contain;
+}
+
+.icon-support {
+    position: relative;
+    width: 22px;
+    height: 22px;
+    display: block;
+    pointer-events: auto; 
+    position: absolute;
+    display: inline;
+    overflow: visible;
+    z-index: 15;
+    transform-origin: 50% 50%;
+    transform: translateX(18px) translateY(-6px) rotateY(0deg);
+}
+
+.icon-support:before {
+  content:'';
+  position: absolute;
+  top: 7px;
+  right: 46px;
+  width: 100%;
+  height: 100% ;
+  background: url(icon-support.png) no-repeat top;
+  background-size: contain;
+}

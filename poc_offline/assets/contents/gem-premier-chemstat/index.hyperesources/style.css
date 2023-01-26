@@ -1,0 +1,127 @@
+body > div:first-of-type { 
+  	position: relative;
+ 	top: 50%;
+ 	transform: translateY(-50%);
+ 	-webkit-transform: translateY(-50%);
+ 	-ms-transform: translateY(-50%);
+}
+body { 
+	background: #565656;
+}
+
+.HYPE_scene ul.list-minus
+{
+	list-style:none;
+	padding: 0;
+	margin: 0;
+}
+.HYPE_scene ul.list-minus li { 
+	padding-top: 0;
+    padding-left: 1.0em; 
+    text-indent: -15px;}
+
+.HYPE_scene ul.list-minus li:before {
+	font-family: FontAwesome;
+	font-size: 60%;
+    content: " ";
+    color: #006496;
+}
+
+.HYPE_scene .list li{
+	margin: 1% 0;
+}
+
+sub{font-size: 60%!important;}
+sup{font-size: 60%!important;line-height: 20px!important;}
+
+.subtitle {font-size:28pt!important;font-family:Arial!important;color: #006496 !important;font-weight:bold!important;line-height: 28pt!important;}
+.subtitle2 {font-size:24pt!important;font-family:Arial!important;color: #3B3C3E !important;font-weight:bold!important;line-height: 24pt!important;}
+.subtitle3 {font-size:20pt!important;font-family:Arial!important;color: #006496 !important;font-weight:bold!important;line-height: 20pt!important;}
+.guideline-title{font-size:14pt!important;font-family:Arial!important;color: #3B3C3E !important;font-weight:bold!important;}
+
+
+.list{color: #006496 !important;}
+.list span{font-size:18pt;font-family:Arial;color:#3B3C3E;line-height: 24px!important;}
+.list-icon span{font-size:18pt;font-family:Arial;color:#3B3C3E;line-height: 50px!important;}
+.list-icon2 span{font-size:16.0pt;font-family:Arial;color:#3B3C3E;line-height: 40px!important;}
+.list2 span{font-size:16.0pt;color:#3B3C3E;line-height: 18pt!important;}
+.list3 span{font-size:14.0pt;color:#3B3C3E;line-height: 16pt!important;}
+.list-minus span{font-size:16.0pt;font-family:Arial;color:#3B3C3E;line-height:18pt!important;}
+
+
+.text {font-size:18.0pt;font-family:Arial;color:#3B3C3E;}
+
+.bold-text{font-size: 20pt;color:#3B3C3E;font-weight: bold;}
+
+.box{text-align: center!important;border:solid 2px #006496 ;width:70%; padding:15px;margin:auto;color:#006496;font-size:16.0pt;font-style: italic;}
+.box div{text-align: right!important;font-style: normal}
+
+.box2{text-align: center!important;border:solid 2px #006496 ;width:70%; padding:15px;margin:auto;color:#006496;font-size:16.0pt;font-style: italic;}
+.box2 div{text-align: right!important;font-style: normal}
+
+.box3{border:solid 2px #006496 ;width:100%; padding:15px;margin:auto;color:#006496;font-size:12.0pt;font-weight: bold;height: 350px;}
+.box3 .left{float:left!important;width:80%;font-weight: normal;margin-top: 15px}
+.box3 .right{float:right!important;width:20%;font-weight: normal;text-align: right;margin-top: 15px}
+
+
+ul#menu-grey li {
+	display:inline;
+	margin-right: 20px;
+}
+.HYPE_scene #menu-grey a  {
+	color: #555a5c !important;
+	text-decoration: none !important;
+	border-spacing: 6px !important;
+	font-size: 20px!important;
+}
+ul#menu-black li {
+	display:inline;
+	margin-right: 80px;
+}
+
+.HYPE_scene #menu-black a  {
+	color: #ffffff !important;
+	text-decoration: none !important;
+	border-spacing: 6px !important;
+	font-size: 20px!important;
+	font-weight: bold;
+}
+.HYPE_scene a:focus{color: #E87722 !important;}
+
+.black-menu-active{background-color: #A60C41!important; color: #ffffff!important;}
+
+.footnote{font-size: 8pt!important;color: #A9A9A9!important;line-height: 8pt!important;position:absolute; bottom:0px;}
+.footnote-big{font-size: 16pt!important;color: #212121!important;line-height: 16pt!important;position:absolute; bottom:0px;}
+
+.title-table{line-height: 24px!important;}
+.text-table{line-height: 22px!important;}
+
+.bold-blue{color:#006495!important;font-weight:bold;}
+
+.icon-popup {
+    position: relative;
+    width: 58px;
+    height: 58px;
+    display: block;
+    pointer-events: auto; 
+    position: absolute;
+    display: inline;
+    overflow: visible;
+    z-index: 15;
+    transform-origin: 50% 50%;
+    transform: translateX(18px) translateY(-6px) rotateY(0deg);
+}
+
+.icon-popup:after {
+  content:'';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100% ;
+  background: url(icon-popup.png) no-repeat top;
+  background-size: contain;
+}
+
+.middle {position: fixed!important;top: 50%!important;transform: translateY(-50%)!important;width: 920px;}
+.middle ul {padding-left:20px;}

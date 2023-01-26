@@ -1,8 +1,10 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
-import 'dart:convert';
 import 'package:flutter/services.dart';
-import 'package:poc_offline/item.dart';
-import 'file_type.dart';
+import 'package:path/path.dart';
+import 'package:path_provider/path_provider.dart';
+import 'package:poc_offline/pdf_viewer_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -12,15 +14,25 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  @override
-  void initState() {
-    _readJson();
-    super.initState();
-  }
+
+  final pdfFiles = [
+    "2015-pengo-publication.pdf",
+    "2017-holtman-publication.pdf",
+    "acl-top-50-series-case-study-summary-usa.pdf",
+    "acl-top-family-50-series-brochure.pdf",
+    "acltop-family-sell-sheet-300.pdf",
+    "clin-econ-impact-platelet-function-testing-neurointervention.pdf",
+    "rotem-pocket-booklet-kja.pdf",
+    "ROTEMsigma-WHO-PBM-policy-brief.pdf",
+    "thrombosis-research-t-warkentin-performance.pdf"
+  ];
 
   final String _title = 'PoC Offline';
 
-  List<Item> _items = [];
+  @override
+  void initState() {
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -28,46 +40,41 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: Text(_title),
       ),
-      body: Center(
-        child: ListView.builder(
-          itemCount: _items.length,
-          itemBuilder: (context, index) {
-            final item = _items[index];
-            return Card(
-              child: Row(
-                children: [
-                  Image.network(item.url, width: 120),
-                  Column(
-                    children: [
-                      Text(item.name),
-                      TextButton(
-                        style: ButtonStyle(
-                          foregroundColor:
-                              MaterialStateProperty.all<Color>(Colors.blue),
-                        ),
-                        onPressed: () {
-                          print("Abrir archivo");
-                        },
-                        child: const Text('Abrir'),
-                      ),
-                    ],
-                  ),
-                ],
-              ),
-            );
-          },
-        ),
+      body: ListView(
+        children: [
+          const Padding(
+            padding: EdgeInsets.all(16.0),
+            child: Center(child: Text("PDF", style: TextStyle(fontSize: 24),)),
+          ),
+          ...pdfFiles.map((filename) => ListTile(title: Text(filename), onTap: () async {
+            final path = "assets/contents/$filename";
+            final file = await loadAsset(path);
+            openPdf(context, file);
+          })),
+          const Padding(
+            padding: EdgeInsets.all(16.0),
+            child: Center(child: Text("HTML", style: TextStyle(fontSize: 24),)),
+          ),
+        ],
       ),
     );
   }
 
-  Future<void> _readJson() async {
-    final String response = await rootBundle.loadString('assets/files.json');
-    final data = await json.decode(response);
-    final dataItems = data['files'];
-    final List<Item> items = Item.fromList(dataItems);
-    setState(() {
-      _items = items;
-    });
+  Future<File> loadAsset(String path) async {
+    final data = await rootBundle.load(path);
+    final bytes = data.buffer.asUint8List();
+    return _storeFile(path, bytes);
   }
+
+  Future<File> _storeFile(String url, List<int> bytes) async {
+    final filename = basename(url);
+    final dir = await getApplicationDocumentsDirectory();
+
+    final file = File('${dir.path}/$filename');
+    await file.writeAsBytes(bytes);
+    return file;
+  }
+
+  void openPdf(BuildContext context, File file) => Navigator.of(context)
+      .push(MaterialPageRoute(builder: (context) => PDFViewerPage(file: file)));
 }

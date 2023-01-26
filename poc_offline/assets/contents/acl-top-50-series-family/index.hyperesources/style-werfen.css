@@ -1,0 +1,54 @@
+body > div:first-of-type { 
+  	position: relative;
+ 	top: 50%;
+ 	transform: translateY(-50%);
+ 	-webkit-transform: translateY(-50%);
+ 	-ms-transform: translateY(-50%);
+}
+body {
+	background: #565656;
+}
+.color-bar{
+	overflow: visible !important;
+	z-index: 7 !important;
+	background-image: -webkit-linear-gradient(0deg, rgb(255, 221, 25), rgb(226, 106, 42)) !important;
+	width: 1280 px !important;
+	height: 20px !important;
+}
+#logo-prin{
+	background: url(logo-werfen.svg);
+	background-position: left center !important;
+	background-repeat: no-repeat;
+	width: 200px !important;
+}
+#logo-il{
+	background: url(logo-il.svg);
+	background-position: left center !important;
+	background-repeat: no-repeat;
+	width: 200px !important;
+}
+p{
+	color: #4A4A4A !important;
+	font-family: Helvetica, sans-serif !important;
+	font-size: 18px !important;
+	margin-top: 0px !important;
+}
+.bold{font-weight: bold !important;}
+
+.HYPE_scene a {color: #00A3E0 !important;
+	text-decoration: none !important;
+	border-bottom: 3px solid !important;
+	border-spacing: 6px !important;
+	-webkit-transition: color 300ms linear, color 0.2s linear;
+	-moz-transition: color 300ms linear, color 0.2s linear;
+	-o-transition: color 300ms linear, color 0.2s linear;
+	-ms-transition: color 300ms linear, color 0.2s linear;
+	transition: color 300ms linear, color 0.2s linear;
+}
+.HYPE_scene a:focus{color: #EAAA00 !important;}
+
+
+ul#menu li {
+	display:inline;
+	margin-left: 20px;
+}

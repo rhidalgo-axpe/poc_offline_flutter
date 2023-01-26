@@ -1,0 +1,93 @@
+body > div:first-of-type { /* Center the content within the page */
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+}
+body { /* Create a grey background around the content */
+	background: #565656;
+}
+
+ul.wlist li {
+	list-style: none;
+	margin-top: 0.2em;
+    text-indent: -1.2em;
+}
+
+ul.wlist li:before {
+	font-family: FontAwesome;
+	font-size: 80%;
+    content: "\f0c8";
+    margin-right: 0.6em;
+    color: #00A3E0;
+}
+
+ul.wlist.small li:before {
+	font-size: 65%;
+}
+
+
+table.wtable
+{
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+}
+table.wtable caption
+{
+	font-weight: normal;
+	font-family: "pf_square_sans_proregular";
+	padding: 10px 8px;
+	background: #00a3e0;
+	color: #fff;
+}
+table.wtable th
+{
+	font-weight: normal;
+	font-family: "pf_square_sans_proregular";
+	padding: 10px 8px;
+	background: #9BCAEA;
+	color: #fff;
+}
+table.wtable td
+{
+	padding: 10px 8px;
+	color: #333;
+}
+table.wtable .odd
+{
+	background: #f5f5f5; 
+}
+
+table.wtable2
+{
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+}
+table.wtable2 caption
+{
+	font-weight: normal;
+	font-family: "pf_square_sans_proregular";
+	padding: 10px 8px;
+	background: #00a3e0;
+	color: #fff;
+}
+table.wtable2 th
+{
+	font-weight: normal;
+	font-family: "pf_square_sans_proregular";
+	padding: 10px 8px;
+	background: #00a3e0;
+	color: #fff;
+}
+table.wtable2 td
+{
+	padding: 10px 8px;
+	color: #333;
+}
+table.wtable2 .odd
+{
+	background: #f5f5f5; 
+}
