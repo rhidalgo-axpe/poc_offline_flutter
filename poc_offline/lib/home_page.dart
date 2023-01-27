@@ -6,6 +6,8 @@ import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:poc_offline/pdf_viewer_page.dart';
 
+import 'html_viewer_page.dart';
+
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
 
@@ -24,7 +26,15 @@ class _HomePageState extends State<HomePage> {
     "clin-econ-impact-platelet-function-testing-neurointervention.pdf",
     "rotem-pocket-booklet-kja.pdf",
     "ROTEMsigma-WHO-PBM-policy-brief.pdf",
-    "thrombosis-research-t-warkentin-performance.pdf"
+    "thrombosis-research-t-warkentin-performance.pdf",
+  ];
+
+  final htmlFiles = [
+    "acl-top-50-series-family",
+    "gem-premier-5000",
+    "gem-premier-chemstat",
+    "hemocell",
+    "iqm2",
   ];
 
   final String _title = 'PoC Offline';
@@ -55,6 +65,13 @@ class _HomePageState extends State<HomePage> {
             padding: EdgeInsets.all(16.0),
             child: Center(child: Text("HTML", style: TextStyle(fontSize: 24),)),
           ),
+          ...htmlFiles.map((filename) => ListTile(
+              title: Text(filename),
+              onTap: () async {
+                final path = "assets/contents/$filename/index.html";
+                String fileHtmlContents = await rootBundle.loadString(path);
+                openHTML(context, fileHtmlContents, path);
+              })),
         ],
       ),
     );
@@ -77,4 +94,9 @@ class _HomePageState extends State<HomePage> {
 
   void openPdf(BuildContext context, File file) => Navigator.of(context)
       .push(MaterialPageRoute(builder: (context) => PDFViewerPage(file: file)));
+
+  void openHTML(BuildContext context, String fileHtmlContents, String path) =>
+      Navigator.of(context).push(
+          MaterialPageRoute(builder: (context) => HTMLViewerPage(fileHtmlContents: fileHtmlContents, path: path)));
+
 }
