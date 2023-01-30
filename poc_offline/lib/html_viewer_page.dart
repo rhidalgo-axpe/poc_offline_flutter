@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
+import 'package:webview_flutter_wkwebview/webview_flutter_wkwebview.dart';
 
 class HTMLViewerPage extends StatefulWidget {
   final String fileHtmlContents;
@@ -18,12 +19,25 @@ class HTMLViewerPage extends StatefulWidget {
 class _HTMLViewerPageState extends State<HTMLViewerPage> {
   @override
   Widget build(BuildContext context) {
-    final webViewController = WebViewController()
-      ..setJavaScriptMode(JavaScriptMode.unrestricted)
-      ..loadFlutterAsset(widget.path);
+    late final PlatformWebViewControllerCreationParams params;
+    if (WebViewPlatform.instance is WebKitWebViewPlatform) {
+      params = WebKitWebViewControllerCreationParams(
+        allowsInlineMediaPlayback: true,
+        mediaTypesRequiringUserAction: const <PlaybackMediaTypes>{},
+      );
+    } else {
+      params = const PlatformWebViewControllerCreationParams();
+    }
+
+    final WebViewController controller =
+        WebViewController.fromPlatformCreationParams(params);
+    controller
+    ..enableZoom(false)
+    ..loadFlutterAsset(widget.path)
+    ..setJavaScriptMode(JavaScriptMode.unrestricted);
+
     return Scaffold(
-      appBar: AppBar(),
-      body: WebViewWidget(controller: webViewController),
+      body: WebViewWidget(controller: controller),
     );
   }
 }

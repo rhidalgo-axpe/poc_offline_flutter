@@ -358,7 +358,7 @@ packages:
     source: hosted
     version: "2.0.1"
   webview_flutter_wkwebview:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: webview_flutter_wkwebview
       sha256: "523aff9168af9bb2170e4809e0499d7dee065c3919799fd3341d3e616c137960"
