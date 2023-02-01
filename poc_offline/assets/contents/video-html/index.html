@@ -65,9 +65,11 @@ var btn = document.getElementById("myBtn");
 
 function myFunction() {
   if (video.paused) {
+    window.flutter.postMessage('Video is playing');
     video.play();
     btn.innerHTML = "Pause";
   } else {
+    window.flutter.postMessage('Video is paused');
     video.pause();
     btn.innerHTML = "Play";
   }
