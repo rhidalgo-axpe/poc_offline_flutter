@@ -32,7 +32,10 @@ class _HTMLViewerPageState extends State<HTMLViewerPage> {
     controller
       ..enableZoom(false)
       ..loadFlutterAsset(widget.path)
-      ..setJavaScriptMode(JavaScriptMode.unrestricted);
+      ..setJavaScriptMode(JavaScriptMode.unrestricted)
+      ..addJavaScriptChannel("flutter", onMessageReceived: (message) {
+        print(message.message);
+      });
 
     return Scaffold(
       body: WebViewWidget(controller: controller),
