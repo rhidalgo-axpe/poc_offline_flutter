@@ -36,6 +36,7 @@ class _HomePageState extends State<HomePage> {
     "hemocell",
     "iqm2",
     "video-html",
+    "hemostasis-calc"
   ];
 
   final String _title = 'PoC Offline';
