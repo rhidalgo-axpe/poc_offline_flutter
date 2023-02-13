@@ -30,10 +30,11 @@ class _HTMLViewerPageState extends State<HTMLViewerPage> {
     }
 
     final WebViewController controller =
-    WebViewController.fromPlatformCreationParams(params);
+        WebViewController.fromPlatformCreationParams(params);
     controller
       ..enableZoom(false)
       ..loadFlutterAsset(widget.path)
+      //..loadHtmlString(widget.fileHtmlContents)
       ..setJavaScriptMode(JavaScriptMode.unrestricted)
       ..addJavaScriptChannel("flutter", onMessageReceived: (message) {
         print(message.message);
