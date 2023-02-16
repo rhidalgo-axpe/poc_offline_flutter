@@ -32714,7 +32714,6 @@ webpackJsonp([1], {
                         console.log("START execution with value =", t.element), e.draw(t), setTimeout(function() {
                             n({
                                 value: t.element
-                                window.flutter.postMessage('Video is playing');
                             })
                         }, 0 | 100 * Math.random())
                     })
@@ -33993,6 +33992,7 @@ webpackJsonp([1], {
                         options: t.getOptsTimeByMfgChart()
                     }], function(t) {
                         console.log("END execution with value =", t)
+                        flutter.postMessage("{\"key\": \"value\"}");
                     }, function() {
                         console.log("COMPLETED"), t.pdf()
                     })
