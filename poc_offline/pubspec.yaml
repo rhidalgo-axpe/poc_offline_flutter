@@ -42,7 +42,6 @@ dependencies:
   path: ^1.8.2
   path_provider: ^2.0.11
   webview_flutter: ^4.0.2
-  flutter_inappwebview: ^5.7.2+3
   webview_flutter_wkwebview: ^3.0.2
 
 
