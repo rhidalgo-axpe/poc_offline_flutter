@@ -1,0 +1,1099 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation>
+    <menuiqm2>
+<div class="panel-group" id="accordion1">
+    <!--HomeiQM2-->
+    <div class="panel panel-default collapsiblemenu">
+        <div class="panel-heading tab header">
+            <h4 class="panel-title first-level">
+                <a onclick="window.myhypedocument.showSceneNamed('iQM2-01');">Home</a>
+            </h4>
+        </div>
+    </div>
+
+    <!--collapseOneiQM2-->
+    <div class="panel panel-default menu">
+        <div class="panel-heading tab">
+            <h4 class="panel-title first-level">
+                <a id="iQM2-vs-Traditional-Quality-Control" data-toggle="collapse" data-parent="#accordion1" class="level level-1" href="#" onclick="window.myhypedocument.showSceneNamed('iQM2-vs-Traditional-Quality-Control');">
+                    iQM2 vs. Traditional Quality Control
+                </a>
+            </h4>
+        </div>
+    </div>
+
+    <!--collapseTwoiQM2-->
+    <div class="panel panel-default menu">
+        <div class="panel-heading tab">
+            <h4 class="panel-title first-level">
+                <a id="5-Process-Control-Solutions-PCSs" data-toggle="collapse" data-parent="#accordion1" class="level level-1" href="#" onclick="window.myhypedocument.showSceneNamed('5-Process-Control-Solutions-PCSs');">
+                    5 Process Control Solutions (PCSs)
+                </a>
+            </h4>
+        </div>
+    </div>
+
+    <!--collapseThreeiQM2-->
+    <div class="panel panel-default collapsiblemenu">
+        <div class="panel-heading tab">
+            <h4 class="panel-title first-level">
+                <a class="first-level" data-toggle="collapse" data-parent="#accordion1" href="#collapseThreeiQM2">
+                    <font face="FontAwesome" class="arrow"></font>
+                </a>
+                <a class="first-level" onclick="window.myhypedocument.showSceneNamed('5-Continuous-Quality-Checks');">
+                    5 Continuous Quality Checks
+                </a>
+            </h4>
+        </div>
+        <div style="margin-top: 15px;margin-bottom:15px" id="collapseThreeiQM2" class="panel-collapse collapse" aria-expanded="false">
+            <div class="panel-body second-level">
+                <a href="#" onclick="window.myhypedocument.showSceneNamed('System-Checks');">System Checks</a>
+            </div>
+            <div class="panel-body second-level">
+                <a href="#" onclick="window.myhypedocument.showSceneNamed('Sensor-Checks');">Sensor Checks</a>
+            </div>
+            <div class="panel-body second-level">
+                <a href="#" onclick="window.myhypedocument.showSceneNamed('IntraSpect-Checks');">IntraSpect Checks</a>
+            </div>
+            <div class="panel-body second-level">
+                <a href="#" onclick="window.myhypedocument.showSceneNamed('Pattern-Recognition-Checks');">Pattern Recognition Checks</a>
+            </div>
+            <div class="panel-body second-level last">
+                <a href="#" onclick="window.myhypedocument.showSceneNamed('PCS-Stability-Checks');">PCS Stability Checks</a>
+            </div>
+        </div>
+    </div>
+
+    <!--collapseFouriQM2-->
+    <div class="panel panel-default collapsiblemenu">
+        <div class="panel-heading tab">
+            <h4 class="panel-title first-level">
+                <a class="first-level" data-toggle="collapse" data-parent="#accordion1" href="#collapseFour">
+                    <font face="FontAwesome" class="arrow"></font>
+                </a>
+                <a class="first-level" onclick="window.myhypedocument.showSceneNamed('Journey-of-a-Sample');">
+                    Journey of a Sample
+                </a>
+            </h4>
+        </div>
+        <div style="margin-top: 15px;margin-bottom:15px" id="collapseFour" class="panel-collapse collapse" aria-expanded="false">
+            <div class="panel-body second-level">
+                <a href="#" onclick="window.myhypedocument.showSceneNamed('iQM2-Overview');">iQM2 Overview</a>
+            </div>
+            <div class="panel-body second-level">
+                <a href="#" onclick="window.myhypedocument.showSceneNamed('Sample-Introduction-01');">Sample Introduction</a>
+            </div>
+            <div class="panel-body second-level">
+                <a href="#" onclick="window.myhypedocument.showSceneNamed('Sample-Aspiration-01');">Sample Aspiration</a>
+            </div>
+            <div class="panel-body second-level">
+                <a href="#" onclick="window.myhypedocument.showSceneNamed('iQM2-IntraSpect-Check-01');">iQM2 IntraSpect Check</a>
+            </div>
+            <div class="panel-body second-level">
+                <a href="#" onclick="window.myhypedocument.showSceneNamed('Sensor-Card1');">Sensor Card</a>
+            </div>
+            <div class="panel-body second-level">
+                <a href="#" onclick="window.myhypedocument.showSceneNamed('CO-Oximetry1');">CO-Oximetry</a>
+            </div>
+            <div class="panel-body second-level">
+                <a href="#" onclick="window.myhypedocument.showSceneNamed('Process-Control-Solution-PCS-B-01');">Process Control Solution (PCS) B</a>
+            </div>
+            <div class="panel-body second-level">
+                <a href="#" onclick="window.myhypedocument.showSceneNamed('Results-01');">Results</a>
+            </div>
+            <div class="panel-body second-level">
+                <a href="#" onclick="window.myhypedocument.showSceneNamed('Challenge:-Interfering-Substances-01');">Challenge: Interfering Substances (Benzalkonium)</a>
+            </div>
+            <div class="panel-body second-level">
+                <a href="#" onclick="window.myhypedocument.showSceneNamed('Challenge:-CO-Ox-Interfering-Substances-01');">Challenge: CO-Ox Interfering Substances (Lipemia)</a>
+            </div>
+            <div class="panel-body second-level">
+                <a href="#" onclick="window.myhypedocument.showSceneNamed('Challenge:-Micro-clot-01');">Challenge: Micro-clot</a>
+            </div>
+            <div class="panel-body second-level">
+                <a href="#" onclick="window.myhypedocument.showSceneNamed('Challenge:-Micro-bubbles-01');">Challenge: Micro-bubbles</a>
+            </div>
+            <div class="panel-body second-level last">
+                <a href="#" onclick="window.myhypedocument.showSceneNamed('Quality-Checks-and-Corrective-Action-01');">Quality Checks and Corrective Action Documentation</a>
+            </div>
+        </div>
+    </div>
+
+    <!--collapseFiveiQM2-->
+    <div class="panel panel-default menu">
+        <div class="panel-heading tab">
+            <h4 class="panel-title first-level">
+                <a id="Risk-Management-Pro" class="level level-1" data-toggle="collapse" data-parent="#accordion1" onclick="window.myhypedocument.showSceneNamed('Risk-Management-Pro');">
+                    Risk Management Process
+                </a>
+            </h4>
+        </div>
+    </div>
+
+    <!--collapseToolsiQM2-->
+    <div class="panel panel-default collapsiblemenu">
+        <div class="panel-heading tab">
+            <h4 class="panel-title first-level">
+                <a data-toggle="collapse" data-parent="#accordion1" href="#collapseToolsiQM2" class="collapsed" aria-expanded="false">
+                    <font face="FontAwesome" class="arrow"></font> Tools
+                </a>
+            </h4>
+        </div>
+        <div id="collapseToolsiQM2" class="panel-collapse collapse" aria-expanded="false">
+            <div class="panel-body">
+                <div class="panel-group" id="accordion4">
+                    <div class="panel">
+                        <a class="second-level" data-toggle="collapse" data-parent="#accordion4" href="#collapseToolsiQM2Two">
+                            <font face="FontAwesome" class="arrow"></font> Videos
+                        </a>
+                        <div id="collapseToolsiQM2Two" class="panel-collapse collapse">
+                            <div class="panel-body third-level"><a href="#" onclick="window.myhypedocument.showSceneNamed('Video - Fluidics Animation');" class="video01">GEM Premier 5000 Fluidics Animation</a></div>
+                            <div class="panel-body third-level last"><a href="#" onclick="window.myhypedocument.showSceneNamed('Video - Expanding Cartridge Animation');" class="video02">GEM Premier 5000 Expanding Cartridge Animation</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--collapseRelatediQM2-->
+    <div class="panel panel-default collapsiblemenu">
+        <div class="panel-heading tab">
+            <h4 class="panel-title first-level">
+                <a data-toggle="collapse" data-parent="#accordion1" href="#collapseRelatediQM2" class="collapsed" aria-expanded="false">
+                    <font face="FontAwesome" class="arrow"></font> Related Products
+                </a>
+            </h4>
+        </div>
+        <div style="margin-top: 15px;" id="collapseRelatediQM2" class="panel-collapse collapse" aria-expanded="false">
+            <div class="panel-body second-level">
+                <a href="#" onclick="doOpenVisual('vdemo-gem-5000')">GEM Premier 5000</a>
+            </div>
+            <div class="panel-body second-level">
+                <a href="#" onclick="doOpenVisual('gemweb-plus-500')">GEMweb Plus 500</a>
+            </div>
+            <div class="panel-body second-level">
+                <a href="#" onclick="doOpenVisual('iqm')">iQM</a>
+            </div>
+            <div class="panel-body second-level">
+                <a href="#" onclick="doOpenVisual('value-acute-care')">Value</a>
+            </div>
+            <div class="panel-body second-level last">
+                <a href="#" onclick="doOpenVisual('cvor')">CVOR</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+    </menuiqm2>
+
+    <iqm2.text>iQM2
+        <p style="color:#212121; font-size:20px">Provides real-time detection, correction and documentation</p>
+        <ul style="color:#212121; font-size:20px">
+            <li>Error detection reduced from<br/>hours to minutes</li>
+            <li>A complete picture of<br/>quality for every sample</li>
+            <li>Mitigates risks in all<br/>phases of testing</li>
+        </ul>
+    </iqm2.text>
+    <iqm2.title>iQM2 vs. Traditional Quality Control
+        <p style="color:#212121; font-size:20px">Reduces error-detection time from hours to minutes.</p>
+    </iqm2.title>
+    <processcontrol.title>5 Process Control Solutions (PCSs)
+        <p style="color:#212121; font-size:20px">5 PCSs continuously confirm sensor and GEM PAK performance.</p>
+    </processcontrol.title>
+    <continuous.title>5 Continuous Quality Checks
+        <p style="color:#212121; font-size:20px">iQM2 automatically performs a continuous cycle of 5 quality checks.</p>
+    </continuous.title>
+    <journey.title>Journey of a Sample
+        <p style="color:#212121; font-size:20px">Continuous quality assurance from sample introduction to results reporting.</p></journey.title>
+    <risk.title>Risk Management Process
+        <p style="color:#212121; font-size:20px">Identifies and reduces risks before, <i>during</i> and after every sample.</p></risk.title>
+
+    <traditional.text>iQM2 vs. Traditional Quality
+        Control<p style="color:#212121; font-size:20px">Automated, real-time assurance with iQM2 enhances patient care</p>
+        <ul style="color:#212121; font-size:20px">
+            <li>Ensures accurate results, eliminating<br/>delayed or inappropriate treatment</li>
+            <li>Rapid testing for immediate patient<br/>management decisions</li>
+            <li>Provides caregivers more time at<br/>bedside</li>
+            <li>Eliminates unnecessary re-testing</li>
+            <li>Enables quality processes, regardless<br/>of operator or testing location</li>
+        </ul></traditional.text>
+    <traditional.popup01>
+    <div>
+        Testimonial
+        <p style="font-size: 48px;margin: 20px 0 25px 0;">
+            “Better error detection, together with error pattern recognition, yields corrective actions that optimize test performance […]. These improvements in QC technology simplify operations […] and provide greater assurance that quality test results will be produced in any setting.”    </p>
+        <span style="font-size: 18px;">
+            <p>James Westgard, PhD, developer of the ‘Westgard Rules’<br/>
+                <i>Emeritus Professor, Dept. of Pathology and Laboratory Medicine</i><br/>
+                <i>University of Wisconsin Medical School Wisconsin, USA</i></p>
+            <p>Westgard J, Fallon K, Mansouri S. Validation of iQM Active Process Control Technology. <i>Point of Care: The Journal of Near-Patient Testing and Technology.</i> 2003;2(1):1-7.</p>
+        </span>
+    </div>
+</traditional.popup01>
+
+    <traditional.popup02.title01>iQM2</traditional.popup02.title01>
+    <traditional.popup02.img01>Error automatically detected, corrected
+        and documented immediately</traditional.popup02.img01>
+    <traditional.popup02.img02>Quality-assured test results</traditional.popup02.img02>
+    <traditional.popup02.text01>iQM2 assures quality continuously</traditional.popup02.text01>
+    <traditional.popup02.title02>Traditional QC (Manual or Auto)</traditional.popup02.title02>
+    <traditional.popup02.img03>Error undetected</traditional.popup02.img03>
+    <traditional.popup02.img04>Questionable tests results</traditional.popup02.img04>
+    <traditional.popup02.text02>All results from 8-hour period require review</traditional.popup02.text02>
+
+    <processcontrol.text>
+        5 Process Control Solutions (PCSs)
+        <p style="color:#212121; font-size:20px">Continuous monitoring verifies PCS stability throughout cartridge use-life</p>
+        <ul style="color:#212121; font-size:20px">
+            <li>PCSs are measured against known values</li>
+            <li>Immediate detection of reagent<br/>deterioration assures quality results</li>
+            <li><i>pO<span style="font-size: smaller;vertical-align: baseline!important;position: relative!important;top: 0.4em!important;">2</span></i> is a sensitive identifier of closed<br/>system stability</li>
+        </ul>
+    </processcontrol.text>
+    <processcontrol.table><table class="" style="text-align: center;" width="100%">
+        <thead>
+            <tr style="background-color:#8C1D40">
+                <td colspan="7" scope="col"><b><font color="#ffffff">PCS Target Values</font></b></td></tr>
+        </thead>
+
+        <thead>
+
+            <tr style="background-color:#7D98AB"><th scope="col"><font face="Helvetica, Arial, sans-serif" color="#ffffff">Analyte</font></th>
+                <th scope="col"><font face="Helvetica, Arial, sans-serif" color="#ffffff"><b>Unit</b></font></th>
+                <th scope="col"><b><font face="Helvetica, Arial, sans-serif" color="#ffffff">PCS A</font></b></th>
+                <th scope="col"><font face="Helvetica, Arial, sans-serif" color="#ffffff"><b>PCS B</b></font></th>
+                <th scope="col"><font face="Helvetica, Arial, sans-serif" color="#ffffff"><b>PCS C</b></font></th>
+                <th scope="col"><font face="Helvetica, Arial, sans-serif" color="#ffffff"><b>PCS D</b></font></th>
+                <th scope="col"><font face="Helvetica, Arial, sans-serif" color="#ffffff"><b>PCS E</b></font></th>
+            </tr>
+        </thead>
+
+        <tbody style="line-height: 27px;background-color:#ffffff">
+            <tr>
+                <td>pH</td>
+                <td></td>
+                <td>6.91</td>
+                <td>7.40</td>
+                <td>8.16</td>
+                <td>7.36</td>
+                <td>7.22</td>
+
+            </tr>
+            <tr>
+                <td><i>p</i>CO<sub>2</sub></td>
+                <td>mmHg</td>
+                <td>65</td>
+                <td>33</td>
+                <td>33</td>
+                <td>25</td>
+                <td>67</td>
+            </tr>
+
+            <tr>
+                <td><i>p</i>O<sub>2</sub></td>
+                <td>mmHg</td>
+                <td>120</td>
+                <td>181</td>
+                <td>3</td>
+                <td>52</td>
+                <td>95</td>
+            </tr>
+            <tr>
+                <td>Na<sup>+</sup></td>
+                <td>mmol/L</td>
+                <td>105</td>
+                <td>155</td>
+                <td>-</td>
+                <td>166</td>
+                <td>129</td>
+            </tr>
+
+            <tr>
+                <td>K<sup>+</sup></td>
+                <td>mmol/L</td>
+                <td>7.1</td>
+                <td>1.9</td>
+                <td>-</td>
+                <td>7.2</td>
+                <td>4.5</td>
+            </tr>
+
+            <tr>
+                <td>Ca<sup>++</sup></td>
+                <td>mmol/L</td>
+                <td>1.77</td>
+                <td>0.79</td>
+                <td>-</td>
+                <td>1.18</td>
+                <td>0.59</td>
+            </tr>
+            <tr>
+                <td>Cl<sup>-</sup></td>
+                <td>mmol/L</td>
+                <td>49</td>
+                <td>88</td>
+                <td>-</td>
+                <td>141</td>
+                <td>101</td>
+            </tr>
+            <tr>
+                <td>Glu</td>
+                <td>mg/dL</td>
+                <td>144</td>
+                <td>0</td>
+                <td>-</td>
+                <td>350</td>
+                <td>70</td>
+            </tr>
+
+            <tr>
+                <td>Lac</td>
+                <td>mmol/L</td>
+                <td>3.3</td>
+                <td>0</td>
+                <td>-</td>
+                <td>8.1</td>
+                <td>1.6</td>
+            </tr>
+
+            <tr>
+                <td>tHb</td>
+                <td>g/dL</td>
+                <td>14.2</td>
+                <td>0</td>
+                <td>-</td>
+                <td>7.3</td>
+                <td>16.5</td>
+            </tr>
+            <tr>
+                <td>tBili</td>
+                <td>g/dL</td>
+                <td>20.0</td>
+                <td>0</td>
+                <td>-</td>
+                <td>10.0</td>
+                <td>20.0</td>
+            </tr>
+            <tr>
+                <td>Hct</td>
+                <td>g/dL</td>
+                <td>28</td>
+                <td>16</td>
+                <td>-</td>
+                <td>26</td>
+                <td>38</td>
+            </tr>
+            <tr>
+                <td>O<sub>2</sub>Hb</td>
+                <td>%</td>
+                <td>94.0</td>
+                <td>-</td>
+                <td>-</td>
+                <td>80.0</td>
+                <td>50.9</td>
+            </tr>
+
+            <tr>
+                <td>HHb</td>
+                <td>%</td>
+                <td>3.0</td>
+                <td>-</td>
+                <td>-</td>
+                <td>12.0</td>
+                <td>30.0</td>
+            </tr>
+            <tr>
+                <td>COHb</td>
+                <td>%</td>
+                <td>1.5</td>
+                <td>-</td>
+                <td>-</td>
+                <td>12.0</td>
+                <td>30.0</td>
+            </tr>
+
+            <tr>
+                <td>MetHb</td>
+                <td>%</td>
+                <td>1.5</td>
+                <td>-</td>
+                <td>-</td>
+                <td>4.0</td>
+                <td>12.0</td>
+            </tr>
+            <tr>
+                <td>sO<sub>2</sub></td>
+                <td>%</td>
+                <td>97.0</td>
+                <td>-</td>
+                <td>-</td>
+                <td>87.0</td>
+                <td>63.0</td>
+            </tr>
+        </tbody>
+    </table>
+    </processcontrol.table>
+    <processcontrol.popup><ul><li>Each PCS serves a specific function in the iQM2 process</li>
+        <li>Established target values across all PCSs monitor Medical-Decision Levels (MDLs) and ensure accuracy of results</li></ul></processcontrol.popup>
+
+    <continuous.text>5 Continuous Quality Checks
+        <p style="color:#212121; font-size:20px">iQM2 automatically performs a<br/>continuous cycle of 5 quality checks,<br/>
+            assuring quality before, during and<br/>after every sample analysis—for real-<br/>time assurance.</p>
+        <ul style="color:#212121; font-size:20px">
+            <li>Ensures accuracy of results,<br/>regardless of point-of-care<br/>operator, time or place</li>
+            <li>Provides immediate correction<br/>and documentation</li>
+        </ul>
+    </continuous.text>
+    <continuous.popup>
+        <div>
+            Testimonial
+            <p style="font-size: 48px;">
+                “We need a fully automated analyzer that eliminates errors upfront to provide assured quality with every
+                sample.”</p>
+            <span style="font-size: 18px">
+                <p>James Nicholsd, Ph.D.<br/>
+                    <i>Chairperson of CLSI EP-23 Guideline</i><br/>
+                    <i>Vanderbilt University, Nashville, TN</i></p>
+                <p>Presented at: Trimark - Point of Care Testing Conference; March 2013; Washington DC.</p>
+            </span>
+        </div>
+    </continuous.popup>
+
+    <back.wheel>Back to Wheel</back.wheel>
+
+    <systemchecks.title>System Checks</systemchecks.title>
+    <systemchecks.text>
+        <p style="color:#212121; font-size:20px">Ensures vital system component function to<br/>reduce risk of pre-analytical variables<br/>affecting results.</p>
+        <p style="color:#212121; font-size:20px">Checks with every sample:</p>
+        <ul style="color:#212121; font-size:20px">
+            <li>Sample integrity and volume</li>
+            <li>Reagent performance</li>
+            <li>Mechanical and electronic subsystems</li>
+            <li>Fluidics</li>
+        </ul>
+    </systemchecks.text>
+
+    <sensorchecks.title>Sensor Checks</sensorchecks.title>
+    <sensorchecks.text>Ensures integrity of every sample result:
+        <ul>
+            <li>5 levels of PCSs performed<br/>automatically throughout GEM PAK<br/>use-life to verify sensor, CO-Ox and<br/>GEM PAK performance</li>
+            <li>Automatically evaluates PCS values<br/>with Pattern Recognition checks</li>
+            <li>Real-time error detection, significantly<br/>exceeds manual/auto QC intervals</li>
+        </ul></sensorchecks.text>
+    <sensorchecks.popup>
+        <div>
+            Testimonial
+            <p style="font-size: 48px;margin: 20px 0 35px 0;">
+                “The new, non-traditional QC parameters, continually monitored, introduce a groundbreaking level of quality management and assurance. No patient test result is released unless the entire test system is within specifications.”
+            </p>
+            <span style="font-size: 18px;">
+                <p>Sharon Ehrmeyer, PhD<br/>
+                    Professor, Pathology and Laboratory Medicine<br/>
+                    University of Wisconsin School of Medicine and Public Health</p>
+                <p>Meeting US Regulation with Instrumentation Laboratory’s GEM Premier 5000 with Intelligent Quality Management 2. Data on File, IL</p>
+            </span>
+        </div>
+    </sensorchecks.popup>
+    <sensorchecks.button>Continuous sensor checks provide quality assurance with every sample.</sensorchecks.button>
+
+    <intraspect.title>IntraSpect Checks</intraspect.title>
+    <intraspect.text>
+        Detects transient sample-specific errors<br/>during measurement process missed by<br/>traditional QC methods. Checks for<br/>abnormal sensor response or residual<br/> error potentially caused by:
+        <ul>
+            <li>Micro-clots</li>
+            <li>Micro-bubbles</li>
+            <li>Interferences</li>
+            <li>CO-Oximetry absorbance error due<br/>to dyes, lipids, interferences</li>
+        </ul>
+    </intraspect.text>
+    <intraspect.button01>Identifies sensor-slope shape and coefficient deviation.</intraspect.button01>
+    <intraspect.button02>No other blood gas testing system can offer complete continuous monitoring of the entire process during sample measurement.</intraspect.button02>
+    <intraspect.popup01>
+        <div>
+            Testimonial
+            <p style="font-size: 44px;margin: 10px 0 15px 0;">
+                “Frequency of IntraSpect errors in our evaluation was 0.5 % (2 out of 430). IntraSpect identifies transient sample errors during the measurement process that are not flagged by traditional quality control methods. IntraSpect assists in minimizing the potential risk of reporting erroneous sample results which can impact patient safety/outcomes.”
+            </p>
+            <span style="font-size: 18px;">
+                <p>Benedicte Beneteau-Burnat<br/>
+                    Biochemical Laboratory<br/>
+                    Saint Antoine Hospital Paris, France</p>
+                <p>GEM Premier 5000 (Werfen) Analyzer evaluation, risk assessment and practicability. Poster presented at 26<sup>th</sup> International AACC Point-of-Care Conference.Sept. 2016. Copenhagen, Denmark</p>
+            </span>
+        </div>
+    </intraspect.popup01>
+    <intraspect.popup02.title>IntraSpect</intraspect.popup02.title>
+    <intraspect.popup02.img01>Normal sample pattern</intraspect.popup02.img01>
+    <intraspect.popup02.img02>Abnormal sample pattern</intraspect.popup02.img02>
+
+    <intraspect.popup02>Identifies sensor-slope shape and coefficient deviation</intraspect.popup02>
+    <intraspect.popup03.title>Coefficient Range Development for IntraSpect</intraspect.popup03.title>
+    <intraspect.popup03.img01>Linear coefficient (Cl<sup>-</sup>)</intraspect.popup03.img01>
+    <intraspect.popup03.img02>Variable coefficient (<i>p</i>CO<sub>2</sub>)</intraspect.popup03.img02>
+
+    <intraspect.popup03><ul><li>A sigma range of 4-6 was used to set limits</li>
+        <li>Specific coefficient limits were assigned, based on data analysis for each analyte
+        </li><li>Data: IL and field testing
+        </li></ul></intraspect.popup03>
+    <intraspect.popup04.title>Complete picture of quality before, during and after sample analysis</intraspect.popup04.title>
+    <intraspect.popup04>No other system offers complete continuous monitoring during the entire testing process.</intraspect.popup04>
+    <intraspect.popup05.title>IntraSpect Detects Sample-specific Transient Errors, Assuring Patient Safety</intraspect.popup05.title>
+    <intraspect.popup05><ul><li>IntraSpect detected coefficient outside of acceptability -45.31 and suppressed analyte result</li>
+        <li>If Glucose error had been undetected, inappropiate patient treatment could have resulted</li></ul></intraspect.popup05>
+    <intraspect.popup06.title>Transient Errors - An Ongoing Challenge in Critical Care Testing</intraspect.popup06.title>
+    <intraspect.popup06>Transient/simple-specific errors in Critical Care testing are a known issue, reported frequently in literatura, with documented evidence of their impact on patient results.</intraspect.popup06>
+    <intraspect.popup07.title>Transient Errors - Recommendations to Improve Quality</intraspect.popup07.title>
+    <intraspect.popup07>International CLSI laboratory standards state:
+        <ul>
+            <li>“A blood gas or electrolyte result may be acted on immediately with serious patient consequences before an erroneous result can be corrected.</li>
+            <li>“Monitoring the measuring system at shorter intervals increases the likelihood that systematic errors are detected before incorrect results are reported, or decreases the time before alerting the health care provider who may have received incorrect results.”</li></ul>
+        <p style="font-size:14px">CLSI, October 2011. Laboratory Quality Control Based on Risk Management: Approved Guideline</p>
+    </intraspect.popup07>
+
+    <pattern.title>Pattern Recognition Checks</pattern.title>
+    <pattern.text>Identifies common sample errors and<br/>interferences and automates corrective<br/>actions:
+        <ul>
+            <li>Recognizes patterns generated by<br/>sample, sensor, CO-Oximetry and<br/>reagent errors (<i>e.g.</i>, micro-clots,<br/>Benzalkonium, CO-Ox/tBili spectral<br/>errors)</li>
+            <li>Identifies and initiates intelligent<br/>corrective actions</li>
+            <li>Increases workflow efficiencies by<br/>automating quality management</li>
+        </ul></pattern.text>
+    <pattern.popup>
+        <div>
+            Testimonial
+            <p style="font-size: 48px;margin: 20px 0 35px 0;">
+                “[iQM] error detection capabilities that function on every sample provide an additional safeguard against reporting erroneous results due to clots or interferences.”
+            </p>
+            <span style="font-size: 18px;">
+                <p>Toffaletti JG, PhD, DABCC, et al.<br/>
+                    <i>Professor of Pathology Director, Blood Gas, Clinical Pediatric, Outpatient Labs</i><br/>
+                    <i>Duke University Medical Center, North Carollina, USA</i></p>
+                <p>Validation of a quality assessment for a blood gas and electrolyte testing. Clinical Chimica Acta. 2007;382:65-70</p>
+            </span>
+        </div>
+    </pattern.popup>
+
+    <pcs.title>PCS Stability Checks</pcs.title>
+    <pcs.text>Verifies PCS stability and GEM PAK integrity.
+        <ul>
+            <li>Immediate detection of reagent<br/>deterioration assures quality results</li>
+            <li><i>p</i>O<sub>2</sub> in PCS A,D and E is compared<br/>to initial measurement</li>
+            <li><i>p</i>O<sub>2</sub> is the most sensitive analyte for<br/>detecting reagent deterioration</li>
+            <li>iQM2 alerts user if system detects PCS<br/>instability</li>
+        </ul></pcs.text>
+    <pcs.button01>iQM2 measures PCSs every four hours to ensure system and PCS stability.</pcs.button01>
+    <pcs.button02>iQM2 continuously and actively monitors the total analytical system for complete quality assurance.</pcs.button02>
+    <pcs.button03>If PCS does not meet acceptable established limits, iQM2 wil halt operations until new GEM PAK installation.</pcs.button03>
+
+    <journey.text>Journey of a Sample
+        <p style="color:#212121; font-size:20px">Follow the journey of a sample through the GEM Premier 5000 system to see how iQM2 ensures accurate results, provides real-time assurance, improves patient care and increases operational efficiency with every sample.</p>
+    </journey.text>
+    <journey.popup>
+    <div>
+        Testimonial
+        <p style="font-size: 48px;margin: 20px 0 35px 0;">
+            “The system is very easy to use and comes with a very low sample volume for a broad spectrum of analysis.”    </p>
+        <span style="font-size: 18px;">
+            <p>Hugo Stiegler, MD<br/>
+                <i>Head of Department Laboratory Medicine</i><br/>
+                <i>Bergmannsheil, Bochum Germany</i></p>
+            <p>Das Intelligente Blutgas-Analysesystem. Medzin &amp; Wissenschaft. 2016;May:16-7</p>
+        </span>
+    </div>
+    </journey.popup>
+
+    <iqm2.overview>iQM2 Overview</iqm2.overview>
+    <iqm2.popup.title>Key Benefits</iqm2.popup.title>
+    <iqm2.popup.title.text01>IMPROVED PATIENT CARE</iqm2.popup.title.text01>
+    <iqm2.popup.text01>
+        <ul>
+            <li>Rapid, quality-assured test results with every sample, not just every 8 hours</li>
+            <li>Identifies and reduces risk associated with testing processes before, <i>during</i> and after every sample</li>
+            <li>Prevents the reporting of erroneous results</li>
+            <li>Enables staff to spend more time at the bedside</li>
+        </ul>
+    </iqm2.popup.text01>
+    <iqm2.popup.title.text02>IMPROVED EFFICIENCY</iqm2.popup.title.text02>
+    <iqm2.popup.text02>
+        <ul>
+            <li>Automates analyzer and operator management</li>
+            <li>Manages quality in self-contained GEM PAK</li>
+            <li>Eliminates outside variability</li>
+            <li>Eliminates maintenance</li>
+            <li>Menu- and volume-specific GEM PAK allow analyzer customization, tailored to unit needs</li>
+            <li>Allow system-wide control from any analyzer or PC</li>
+            <li>Keeps documentation just a click away</li>
+        </ul>
+    </iqm2.popup.text02>
+
+    <sample.title>Sample Introduction</sample.title>
+    <sample.text01>Designed to improve efficiency, the<br/>Quick Start GUI, reduces potential errors<br/>and enhances turnaround time.</sample.text01>
+    <sample.text02>Smartcolor status bar provides real-<br/>time messaging for all analysis and<br/>quality processes.</sample.text02>
+    <sample.text03>Sample is aspirated into the all-in one,<br/>multi-use GEM PAK from the front-<br/>facing illuminated sampling area.<br/>Visual and tactical feedback<br/>mechanisms to ensure proper<br/>sample presentation.</sample.text03>
+    <sample.text04>COMPETITIVE ADVANTAGE:<br/>Tactical and visual sampler feedback<br/>during aspiration helps ensure correct<br/> sample introduction.</sample.text04>
+
+    <sampleasp.title>Sample Aspiration</sampleasp.title>
+    <sampleasp.text01>Sample enters split pathway,<br/>simultaneously running through the<br/>sensor card and CO-Ox maximizing<br/>sample turnaround time.</sampleasp.text01>
+    <sampleasp.text02>System Checks - During every sample<br/>aspiration, iQM2 performs various quality<br/>checks to identify sample and reagent<br/>specific errors (<i>e.g.,</i> bubbles, insufficient<br/>sample volume).</sampleasp.text02>
+
+    <iqmintra.title>iQM2 IntraSpect<br/>Checks</iqmintra.title>
+    <iqmintra.text01>IntraSpect collects readings during the<br/>measurement process to detect<br/>abnormal sensor response which may<br/>be attributed to sample-specific<br/>transient errors. Reducing risk of<br/>erroneous results improves<br/>patient care.</iqmintra.text01>
+    <iqmintra.text02>COMPETITIVE ADVANTAGE: The GEM<br/>Premier 5000 system with iQM2 is the<br/>only analyzer that performs sample<br/>quality checks during the<br/>measurement process.</iqmintra.text02>
+
+    <sensor.title>Sensor Card</sensor.title>
+    <sentor.text01>Sample flows over sensors and<br/>produces an electric signal received by<br/>the analyzer, proportionate to the<br/>concentration of the measured analyte<br/>in sample.</sentor.text01>
+    <sentor.text02>Measurements for CO-Ox are<br/>simultaneously run to provide a<br/>complete menu of tests in 45 seconds.</sentor.text02>
+
+    <cooxi.title>CO-Oximetry</cooxi.title>
+    <cooxi.text01>The sample flows into the mixing<br/>chamber, red blood cells are chemically<br/>lysed, and continue to mix as they are<br/>pushed into the optical chamber.</cooxi.text01>
+    <cooxi.text02>Lysed sample is transported into the<br/>CO-Ox window and absorbance<br/>reading is captured by<br/>spectrophotometer. Absorbance<br/>spectra is analyzed using multi-variate<br/>spectral analysis, minimizing<br/>interferences.</cooxi.text02>
+    <cooxi.text03>IntraSpect and Pattern Recognition<br/>Checks identify errors and initiate<br/>intelligent corrective actions to mitigate<br/>sample-specific errors.</cooxi.text03>
+    <cooxi.text04>iQM2 now verifies sensor and reagent<br/>performance using NIST-traceable<br/>PCS B.
+        <p>PCS B follows the same fluidic pathway<br/>as the sample through the Sensor Card<br/>and CO-Ox cell, pushing<br/>the sample to waste.</p></cooxi.text04>
+
+    <cooxi.popup>
+        <div>
+            Testimonial
+            <p style="font-size: 40px;margin: 20px 0 35px 0;">
+                “The ability to measure methemoglobin (metHb) in the NICU is important. A potential side effect of inhaled nitric oxide (NO) as a pulmonary dilator is the formation of MetHb. The presence of MetHb reduces the oxygen-carrying capacity of hemoglobin, impairs oxygen unloading at the tissue level […] and can cause significant lung injury.”
+            </p>
+            <span style="font-size: 18px;">
+                <p>John Ance, RRT<br/>
+                    <i>Senior Clinical Consultant</i><br/>
+                    <i>Instrumentation Laboratory</i></p>
+                <p>Neonatal Critical Care Testing. RT for Decision Makers in Respiratory Care. 4 March, 2011. www.rtmagazine.com/2011/03/neonatal-critical-care-testing</p>
+            </span>
+        </div>
+    </cooxi.popup>
+
+    <pcsb.title>Process Control<br/>Solution (PCS) B</pcsb.title>
+    <pcsb.text01>Sensors produce an electric signal<br/>received by the analyzer, proportionate<br/>to the concentration of the measured<br/>analyte in PCS B.</pcsb.text01>
+    <pcsb.text02>Before validation sample results, PCS B<br/>checks for abnormal sensor response<br/>associated with known errors, ensuring<br/>correlation to measured values to<br/>solution baseline values.</pcsb.text02>
+    <pcsb.text03>PCS B returns to normal after<br/>eliminating any posible residual<br/>spectral errors.</pcsb.text03>
+    <pcsb.popup>
+        <div>
+            Testimonial
+            <p style="font-size: 48px;margin: 20px 0 35px 0;">
+                “The GEM-iQM2 system automated and on-going analysis of PCSs and continual assessment of all critical
+                measurement components ensure test quality while relieving operators of almost all traditional and
+                time-consuming responsibilities associated with QC.”
+            </p>
+            <span style="font-size: 18px;">
+                <p>Sharon Ehrmeyer, PhD<br/>
+                    Professor, Pathology and Laboratory Medicine<br/>
+                    University of Wisconsin School of Medicine and Public Health</p>
+                <p>Meeting US Regulations with Instrumentation Laboratory’s GEM Premier 5000 with Intelligent Quality Management 2. Data on File, IL</p>
+            </span>
+        </div>
+    </pcsb.popup>
+
+    <results.title>Results</results.title>
+    <results.text01>GEM Premier 5000 system displays<br/>patient results for all measured and <br/>derived values.
+        <ul>
+            <li>Color-coding and sample<br/>flagging simplify values that<br/>require immediate user<br/>notification.</li>
+            <li>Results can be printed or<br/>transmitted to the LIS/HIS.</li>
+        </ul></results.text01>
+    <results.text02>COMPETITIVE ADVANTAGE:<br/>The GEM Premier 5000 with iQM2<br/>is the only system that offers a<br/>closed PAK, continuous quality<br/>checks to detect abnormalities and<br/>Pattern Recognition software,<br/>allowing the identification of errors<br/>(systematic or transient) traditional<br/>QC may miss.</results.text02>
+
+    <challenge.title>Challenge: Interfering<br/>Substances<br/>(Benzalkonium)</challenge.title>
+    <challenge.text01>Sample enters split pathway,<br/>simultaneously running through the<br/>sensor card and CO-Ox.</challenge.text01>
+    <challenge.text02>Sample containing interferent flows over<br/>sensors.</challenge.text02>
+    <challenge.text03>IntraSpect identifies abnormal sensor<br/>response during sample measurement<br/>process and alerts user to analyte-<br/>specific error.</challenge.text03>
+    <challenge.text04>Benzalkonium, a common source of<br/>pre-analytic error, may interfere with<br/>sensor signal response during the<br/>measurement process.</challenge.text04>
+    <challenge.text05>PCS B sensor check detects<br/>interference due to drifts in sensor<br/>signal responses.</challenge.text05>
+    <challenge.text06>Error pattern identifies interference as<br/>Benzalkonium (BZK), based on PCS B-<br/>positive Ca<sup>++</sup> and Na<sup>+</sup> drifts and no<br/>negative K<sup>+</sup> drift.</challenge.text06>
+    <challenge.text07>iQM2 immediately displays an<br/>interference alert to notify user.</challenge.text07>
+    <challenge.text08>COMPETITIVE ADVANTAGE:<br/>Continuous quality checks and<br/>immediate notification ensure<br/>optimal results and patient safety.</challenge.text08>
+    <challenge.text09>iQM2 automatically and intelligently<br/>corrects the interference with<br/>increased frequency of PCS B<br/>cycles to prevent error in<br/>subsequent sample results.
+        <br/><br/>
+        If iQM2 error mitigation is not<br/>confirmed, the system disables<br/>the sensor to prevent erroneous<br/>results reporting.</challenge.text09>
+    <challenge.text10>Interference flag is displayed on the<br/>Results screen, for immediate user<br/>notification.</challenge.text10>
+    <challenge.text11>Corrective Action Report documents<br/>corresponding iQM2 corrective<br/>actions and sensor status.</challenge.text11>
+    <challenge.text12>
+        COMPETITIVE ADVANTAGE:<br/><br/>
+        iQM2 automatically detects,<br/>corrects and documents errors<br/>in real-time.<br/><br/>
+        Traditonal QC does not identify<br/>interfering substances which<br/>remain undetected, affecting<br/>current and subsequent<br/>sample results.
+    </challenge.text12>
+    <challenge.popup>
+        <div>
+            Testimonial
+            <p style="font-size: 48px;margin: 20px 0 35px 0;">
+                “The GEM-iQM2 system [detects] clots, interferents, and common operator errors [...]. Assessment of these “quality parameters” is very relevant to total quality management of tests.”
+            </p>
+            <span style="font-size: 18px;">
+                <p>Sharon Ehrmeyer, PhD, et al.<br/>
+                    <i>Professor, Pathology and Laboratory Medicine</i><br/>
+                    <i>University of Wisconsin School of Medicine and Public Health</i></p>
+                <p>Meeting US Regulations with Instrumentation Laboratory’s GEM Premier 5000 with Intelligent Quality Management 2. Data on File, IL</p>
+            </span>
+        </div>
+    </challenge.popup>
+
+    <cha.coox.title>Challenge: CO-Ox<br/>Interfering<br/>Substances (Lipemia)</cha.coox.title>
+    <cha.coox.text01>Sample enters split pathway,<br/>simultaneously running through <br/>sensor card and CO-Ox.</cha.coox.text01>
+    <cha.coox.text02>Sample flows into the mixing<br/>chamber, red blood cells are chemically<br/>lysed, and continue to mix while being<br/>pushed into optical chamber.</cha.coox.text02>
+    <cha.coox.text03>Lysed lipemic sample flows into <br/>CO-Ox window and absorbance<br/>reading is captured by<br/>spectrophotometer.</cha.coox.text03>
+    <cha.coox.text04>iQM2 analyzes sample absorbance<br/>readings and utilizes Pattern<br/>Recognition software to detect<br/>abnormalities. Sample reference<br/>library identifies interfering<br/>substances that can affect patient<br/>results and determines<br/>acceptable limits of lipemia.</cha.coox.text04>
+    <cha.coox.text05>PCS B flows into CO-Ox cell, pushing<br/>sample to waste.</cha.coox.text05>
+    <cha.coox.text06>PCS B also checks for abnomal<br/>absorbance readings in CO-Ox to<br/>eliminate any possible residual spectral<br/>errors.</cha.coox.text06>
+    <cha.coox.text07>iQM2 will automatically correct<br/>and report results from samples<br/>with lipemia &lt; 5% and will flag<br/>results with turbidity flag if<br/>samples contain lipemia &gt; 5%.</cha.coox.text07>
+    <cha.coox.text08>COMPETITIVE ADVANTAGE:<br/>Continuous quality checks and<br/>immediate notification ensures<br/>optimal results and patient safety.</cha.coox.text08>
+
+    <cha.micro.title>Challenge: Micro-clot</cha.micro.title>
+    <cha.micro.text01>Sample enters split pathway,<br/>simultaneously running through<br/>sensor card and CO-Ox.</cha.micro.text01>
+    <cha.micro.text02>Sample containing micro-clot flows over<br/>sensors.</cha.micro.text02>
+    <cha.micro.text03>IntraSpect identifies abnormal sensor<br/>response during sample measurement<br/>process and alerts user to analyte<br/>specific error.</cha.micro.text03>
+    <cha.micro.text04>Micro-clots, a common source of pre-<br/>analytic error, can interfere with sensor<br/>signal response during measurement<br/> process by adhering to a sensor.<br/>Micro-clots may be as small as<br/>a fibrin strand.</cha.micro.text04>
+    <cha.micro.text05>PCS B sensor check detects<br/>interference due to drifts in sensor<br/>signal responses.</cha.micro.text05>
+    <cha.micro.text06>PCS B sensor check detects a negative<br/>drift in sensor signal response.</cha.micro.text06>
+    <cha.micro.text07>PCS A determines if pattern indicates a<br/> micro-clot. A negative drift in PCS B<br/> and positive drift in PCS A is a Pattern<br/> Recognition signature of a micro-clot.</cha.micro.text07>
+    <cha.micro.text08>iQM2 immediately notifies user of<br/>confirmed micro-clot.</cha.micro.text08>
+    <cha.micro.text09>COMPETITIVE ADVANTAGE:<br/>Continuous quality checks and<br/>immediate notification ensure optimal<br/>results and patient safety.</cha.micro.text09>
+    <cha.micro.text10>iQM2 automatically and intelligently<br/>corrects error with clot-bust rinse to<br/>prevent fibrin strands from affecting<br/>subsequent results.</cha.micro.text10>
+    <cha.micro.text11>iQM2 confirms that corrective action is<br/>successful by performing PCS B and<br/>PCS A.</cha.micro.text11>
+    <cha.micro.text12>COMPETITIVE ADVANTAGE:<br/>With traditional QC (auto or manual),<br/>clots and micro-clots can affect a<br/>sensor, alter system performance and<br/>potentially affect subsequent results<br/>until the next QC replicate.</cha.micro.text12>
+    <cha.micro.text13>Micro-clot flag is displayed<br/>on results screen on<br/>affected analyte.</cha.micro.text13>
+    <cha.micro.text14>iQM2 verifies successful error<br/>mitigation prior to allowing further<br/>sample analysis. If  micro-clot<br/>cannot be removed, iQM2 disables<br/> sensor to prevent reporting of<br/>erroneous results.</cha.micro.text14>
+    <cha.micro.text15>iQM2 automatically documents<br/>corrective action.</cha.micro.text15>
+    <cha.micro.text16>COMPETITIVE ADVANTAGE:<br/>No other system automatically<br/>detects, corrects and documents<br/>errors in real-time.</cha.micro.text16>
+    <cha.micro.popup>
+        <div>
+            Testimonial
+            <p style="font-size: 48px;margin: 20px 0 35px 0;">
+                “[iQM2] provide[s] test-site directors [...] a fully documented means of meeting their appropriate “regulatory” responsibilities with assurance that requirements are fully addressed–in a manner completely transparent to the operators.”
+            </p>
+            <span style="font-size: 18px;">
+                <p>Sharon Ehrmeyer, PhD, et al.<br/>
+                <i>Professor, Pathology and Laboratory Medicine</i><br/>
+                <i>University of Wisconsin School of Medicine and Public Health</i></p>
+                <p>Meeting US Regulations with Instrumentation Laboratory’s GEM Premier 5000 with Intelligent Quality Management 2. Data on File, IL</p>
+            </span>
+        </div>
+    </cha.micro.popup>
+
+    <cha.bubb.title>Challenge: <br/>Micro-bubbles</cha.bubb.title>
+    <cha.bubb.text01>Sample enters split pathway,<br/>simultaneously running through<br/>sensor card and CO-Ox.</cha.bubb.text01>
+    <cha.bubb.text02>Sample containing micro-bubbles flows<br/>over sensors.</cha.bubb.text02>
+    <cha.bubb.text03>IntraSpect identifies abnormal sensor<br/>response during sample measurement<br/>process and alerts user to analyte-<br/>specific error.</cha.bubb.text03>
+    <cha.bubb.text04>Micro-bubbles, a common source of<br/>pre-analytic error, may interfere with<br/>sensor signal response during<br/>measurement process. Micro-bubbles<br/>may be invisible when visually<br/>inspecting sample prior to analysis.</cha.bubb.text04>
+    <cha.bubb.text05>PCS B flushes sample containing<br/>micro-bubbles to the waste bag. No<br/>residual error is detected during<br/>sensor/CO-Ox checks utilizing PCS B.</cha.bubb.text05>
+    <cha.bubb.text06>IntraSpect flag appears next to<br/>affected analyte, immediately<br/>notifying user. Flagging transient<br/>errors ensures quality results during<br/>every sample measurement.</cha.bubb.text06>
+    <cha.bubb.text07>COMPETITIVE ADVANTAGE:<br/>Continuous quality checks before,<br/>during and after every sample<br/>provides immediate notification,<br/>ensure optimal results and patient<br/>care.</cha.bubb.text07>
+
+    <quality.title>Quality Checks and<br/>Corrective Action<br/>Documentation</quality.title>
+    <quality.text01>
+        iQM2 automatically records<br/>and stores all results.<br/><br/>
+        Configurable color-coded<br/>values facilitate identification<br/>of critical patient results.
+    </quality.text01>
+    <quality.text02>All Corrective Action Reports,<br/>iQM2 Delta Charts and other<br/>reports are available on<br/>demand.</quality.text02>
+    <quality.text03>iQM2 meets and exceeds<br/>regulatory requirements (<i>e.g.</i>, <br/>ISO 15189/22870) for quality<br/>documentation by automatically<br/>storing all reports electronically.</quality.text03>
+    <quality.text04>Sample Handling and Enhanced<br/>Reports facilitate targeted<br/>operator training.</quality.text04>
+    <quality.text05>Configurable electronic signature<br/>workflows ensure a timely and<br/>complete quality assurance<br/>program, inspection-ready at the<br/>touch of a button.</quality.text05>
+    <quality.popup>
+        <div>
+            Testimonial
+            <p style="font-size: 48px;margin: 20px 0 35px 0;">
+                “The GEM-iQM2 system introduces a new quality control/quality assurance paradigm, which greatly advances state-of-the-art quality practices [...] it not only meets, but exceeds, the requirements of CMS (CLIA), CAP, JC and COLA.”    </p>
+            <span style="font-size: 18px;">
+                <p>Sharon Ehrmeyer, PhD, et al.<br/>
+                    <i>Professor, Pathology and Laboratory Medicine</i><br/>
+                    <i>University of Wisconsin School of Medicine and Public Health</i></p>
+                <p>Meeting US Regulations with Instrumentation Laboratory’s GEM Premier 5000 with Intelligent Quality Management 2. Data on File, IL</p>
+            </span>
+        </div>
+    </quality.popup>
+
+    <risk.text>Risk Management Process<br/>
+        <p style="color:#212121; font-size:20px">Encompasses all aspects of Risk<br/>Management:
+        </p><ul style="color:#212121; font-size:20px">
+            <li>Identifies and mitigates potential risks<br/>throughout the entire testing process,<br/>from pre- through post-analytical<br/>phases</li>
+            <li>Automatically documents all risk-<br/>management process activities to<br/> fulfill regulatory requirements</li>
+        </ul>
+    </risk.text>
+    <risk.popup01>
+    <div>
+        Testimonial
+        <p style="font-size: 48px;margin: 20px 0 35px 0;">
+            “iQM2 fits perfectly into the risk management approach because it addresses so many potential errors.”
+        </p>
+        <span style="font-size: 18px;">
+            <p>James Westgard, PhD, developer of the ‘Westgard Rules’<br/>
+                <i>Emeritus Professor, Dept. of Pathology and Laboratory Medicine</i><br/>
+                <i>University of Wisconsin Medical School Wisconsin, USA</i></p>
+            <p>Validation of iQM Active Process Control Technology. Point of Care: The Journal of Near-Patient Testing and Technology, 2003;2(1):1-7</p>
+        </span>
+    </div>
+    </risk.popup01>
+
+    <risk.popup02.title>Common Deficiencies Cited by Regulatory Organizations</risk.popup02.title>
+    <risk.popup02.text>
+        <ul><li>Personnel qualifications and associated records</li>
+            <li>Competency assessments, including all six elements</li>
+            <li>Proficiency testing</li>
+            <li>Method comparisons and calibration verification</li>
+            <li>Equipment maintenance and associated documentation</li>
+        </ul>
+        <ol style="font-size:14px">Hess, N. The Inspection-Ready Lab. <i>MLO</i>. 2016;48(7):38-44.</ol>
+    </risk.popup02.text>
+    <risk.popup03.title>CLSI EP23-A Guideline</risk.popup03.title>
+    <risk.popup03.text><ul><li>Clinical and Laboratory Standards Institute (CSLI) risk-based approach to quality control</li><li>Centers for Medicaid and Medicare SProvides one-touch menu selection with flexible configurations, customizable by department
+        ervices (CMS) adapted EP23-A concepts for new CLIA quality control option - Individualized Quality Control Plan (IQCP)</li><li>Goals of EP-23/IQCP</li>
+        <ol>- Address “limited ability” of some manufacturers’ “built-in quality assessments” to truly evaluate test quality</ol>
+        <ol>- Ensure test restul quality by eliminating significant risk in entire testing process</ol>
+        <ol>- Allow sites to develop quality strategies appropiate for specific testing situation</ol></ul></risk.popup03.text>
+
+    <risk.popup04.title>Individualized Quality Control Plans (IQCP)</risk.popup04.title>
+    <risk.popup04.text><ul>
+        <li>Strategy to mitigate and prevent errors throughout the entire testing process for improved quality and patient safety</li>
+        <li>Prevent failures and detect nonconformities that may occur before incorrect results are reported</li>
+        <li>Requires a thorough understanding of the 3 phases of testing</li>
+    </ul></risk.popup04.text>
+    <risk.popup04.text.01>Pre-analytical</risk.popup04.text.01>
+    <risk.popup04.text.02>Analytical</risk.popup04.text.02>
+    <risk.popup04.text.03>Post-analytical</risk.popup04.text.03>
+
+    <risk.popup05.title>IQCP Development Process</risk.popup05.title>
+    <risk.popup05.text>Facilities are encouraged to:
+        <ul><li>Perform a risk assessment
+            <ol>- Examine the entire testing process (from pre-analytical through post-analytical)</ol>
+            <ol>- Determine where potential errors can occur</ol>
+            <ol>- Assess if these errors can be detected by current quality assessment practices</ol></li>
+            <li>Develop a quality control plan
+                <ol>- Where necessary, implement appropriate procedures to mitigate/reduce (residual) errors to an acceptable level</ol></li></ul>
+        Final IQCP based on:
+        <ul><ol>- Regulatory requirements</ol>
+            <ol>- Manufacturer information</ol>
+            <ol>- Testing environment</ol></ul></risk.popup05.text>
+
+    <risk.popup06.title>IQCP and ISO 15189</risk.popup06.title>
+    <risk.popup06.text>
+        <ul><li>Based on risk assessments and risk management</li>
+            <li>Aim to change processes to reduce or eliminate the identified risks and document decisions and actions</li>
+            <li>Require the lab to be responsible for monitoring and evaluating performance through critical aspects of pre-analytical, analytical and post-analytical processes</li></ul>
+    </risk.popup06.text>
+
+    <risk.popup07.title>GEM Premier 5000 System Developed to Mitigate Risk of Potential Errors<sup>*</sup></risk.popup07.title>
+    <risk.popup07.text>Designed to include advanced technologies:
+        <ul><li>Eliminates steps/re-engineer proces</li>
+            <li>Includes software enhancements</li>
+            <li>Automates quality control processes and review</li></ul>
+        Goals
+        <ul><li>Enhanced quality of results</li></ul>
+        <font size="3"><sup>*http://aacc.org/members/divisions/cpoct/poc_forum/Documents/AstionAACC_POCsafetysubm.pdf</sup></font></risk.popup07.text>
+
+    <risk.popup08.title>CLSI EP-23 Risk Assessment Model of the GEM Premier 5000 system</risk.popup08.title>
+
+    <risk.popup09.table>
+        <span style="color: rgb(151, 32, 73);font-size:18px">Sample Errors<br/><br/></span>
+
+        <table style="text-align: center;border-collapse: collapse;border: 1px solid black" width="100%">
+            <thead>
+                <tr style="background-color:#7D98AB; color:#ffffff">
+                    <th width="20%" height="30px" scope="col">Sources of Error</th>
+                    <th width="80%" scope="col"><b>Risk Mitigation Features</b></th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Lipemia*</td>
+                    <td><ul style="text-align: left; margin-right:3px;margin-left:-13px"><li>iQM2 identifies samples with high lipemia &gt;5% through IntraSpect and Pattern Recognition Checks**</li>
+                        <li>iQM2 alerts user and can correct patient results with lipemia concentrations ≤5%</li></ul></td>
+                </tr>
+                <tr>
+                    <td>Hemolysis*</td>
+                    <td><ul style="text-align: left; margin-right:3px;margin-left:-13px"><li>Onboard sample collection training videos help reduce error</li>
+                        <li>Patient history includes delta differences for each analyte</li></ul></td>
+                </tr>
+                <tr>
+                    <td>Interfering<br/>Substances*</td>
+                    <td><ul style="text-align: left; margin-right:3px;margin-left:-13px"><li>iQM2 automatically performs sample integrity checks on each sample with use of Sensor/CO-Ox Checks and Patterns Recognition Checks</li>
+                        <li>iQM2 alerts user and automatically initiates intelligent corrective actions</li></ul></td>
+                </tr>
+                <tr>
+                    <td>Clots, bubbles and inadequate volume*</td>
+                    <td><ul style="text-align: left; margin-right:3px;margin-left:-13px"><li>iQM2 automatically performs sample integrity checks on each sample including System, IntraSpect, Sensor/CO-Ox and Patterns Recognition Checks</li>
+                        <li>iQM2 alerts user and automatically initiates intelligent corrective actions</li></ul></td>
+                </tr>
+                <tr>
+                    <td>Incorrect Tube*</td>
+                    <td><ul style="text-align: left; margin-right:3px;margin-left:-13px"><li>Barcode scanner ensures proper sample ID</li>
+                        <li>Customizable patient ID entry requirements and configurations for: Pre-existing orders, automatic patient demographic fetch/search functions and ADT/POC order creation (GEMweb Plus)</li></ul></td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Based on EP18/23<span style="margin-left:20px">* Note: Errors can be associated with pre-analytical or analytical phase of testing</span><br/><span style="margin-left:120px">** 5% of 10% intralipid with a final concentration of 0.5%</span></p>
+
+    </risk.popup09.table>
+
+    <risk.popup10.table>
+        <span style="color: rgb(151, 32, 73);font-size:18px">Operator Errors</span><br/><br/>
+
+        <table style="text-align: center;border-collapse: collapse;border: 1px solid black" width="100%">
+            <thead>
+                <tr style="background-color:#7D98AB">
+                    <th  width="20%" height="30px" scope="col"><font face="Helvetica, Arial, sans-serif" color="#ffffff">Sources of Error</font></th>
+                    <th width="80%" scope="col"><font face="Helvetica, Arial, sans-serif" color="#ffffff"><b>Risk Mitigation Features</b></font></th>
+                </tr>
+            </thead>
+
+            <tbody style="background-color:#ffffff">
+                <tr>
+                    <td>Operator not trained</td>
+                    <td><ul style="text-align: left; margin-right:3px;margin-left:-13px">
+                        <li>Operator management/security lockout to ensure user is authorized</li>
+                        <li>GEMweb Plus Custom Connectivity offers broad configurable operator competency functions</li>
+                    </ul></td>
+                </tr>
+                <tr>
+                    <td>Operator does not follow procedures</td>
+                    <td><ul style="text-align: left; margin-right:3px;margin-left:-13px">
+                        <li>Operator management/security lockout to ensure user is authorized</li>
+                        <li>GEMweb Plus Custom Connectivity offers broad configurable operator competency functions</li>
+                    </ul></td>
+                </tr>
+                <tr>
+                    <td>Operator competency</td>
+                    <td><ul style="text-align: left; margin-right:3px;margin-left:-13px">
+                        <li>GEMweb Plus Custom Connectivity operator competency features include: 30-day warning messaging, operator competency exams, configurable practical competency sign-off and realtime certification</li>
+                    </ul></td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Based on EP 18/23</p>
+    </risk.popup10.table>
+
+    <risk.popup11.table>
+        <span style="color: rgb(151, 32, 73);font-size:18px">Reagent Errors</span><br/><br/>
+        <table style="text-align: center;border-collapse: collapse;border: 1px solid black" width="100%">
+            <thead>
+                <tr style="background-color:#7D98AB">
+                    <th  width="20%" height="30px" scope="col"><font face="Helvetica, Arial, sans-serif" color="#ffffff">Sources of Error</font></th>
+                    <th width="80%" scope="col"><font face="Helvetica, Arial, sans-serif" color="#ffffff"><b>Risk Mitigation Features</b></font></th>
+                </tr>
+            </thead>
+
+            <tbody style="background-color:#ffffff">
+                <tr>
+                    <td>Reagent deterioration</td>
+                    <td><ul style="text-align: left; margin-right:3px;margin-left:-13px">
+                        <li>APV verifies PCS performance and integrity of each PAk after insertion</li>
+                        <li>iQM2 performs continuous PCS stability checks throughout PAK use-life</li>
+                    </ul></td>
+                </tr>
+                <tr>
+                    <td>Reagent contamination</td>
+                    <td><ul style="text-align: left; margin-right:3px;margin-left:-13px">
+                        <li>iQM2 performs continuous PCS checks throughout PAK use-life with NIST-traceable PCSs</li>
+                    </ul></td>
+                </tr>
+                <tr>
+                    <td>Outdated reagents</td>
+                    <td><ul style="text-align: left; margin-right:3px;margin-left:-13px">
+                        <li>GEM PAKs are checked for expiration date and use-life when inserted (EEPROM)</li>
+                    </ul></td>
+                </tr>
+                <tr>
+                    <td>Poor precision/bias</td>
+                    <td><ul style="text-align: left; margin-right:3px;margin-left:-13px">
+                        <li>iQM2 Sensor/CO-Ox Checks are performed using PCSs, any precision failure will automatically initiate corrective actions</li>
+                    </ul></td>
+                </tr>
+                <tr>
+                    <td>Cartridge lot variability</td>
+                    <td><ul style="text-align: left; margin-right:3px;margin-left:-13px">
+                        <li>All PAKs are verified upon insertion and throughout use-life with NIST-traceable PCSs and AVP with specific ranges to monitor lot-to-lot variations</li>
+                        <li>Sensors outside of the acceptable PCS/AVP ranges are disabled</li>
+                    </ul></td>
+                </tr>
+                <tr>
+                    <td>Sensor Malfunction/QC out of range</td>
+                    <td><ul style="text-align: left; margin-right:3px;margin-left:-13px">
+                        <li>iQM2 automatically performs Sensor/CO-Ox Checks using PCSs and Pattern Recognition Checks</li>
+                        <li>iQM2 immediately alerts user to sensor malfunctions</li>
+                        <li>iQM2 automatically initiates intelligent corrective actions when malfunctions are detected</li>
+                    </ul></td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Based on EP 18/23</p>
+    </risk.popup11.table>
+
+    <risk.popup12.table>
+        <span style="color: rgb(151, 32, 73);font-size:18px">POCT Environment Errors</span><br/><br/>
+        <table style="text-align: center;border-collapse: collapse;border: 1px solid black" width="100%">
+            <thead>
+                <tr style="background-color:#7D98AB">
+                    <th  width="20%" height="30px" scope="col"><font face="Helvetica, Arial, sans-serif" color="#ffffff">Sources of Error</font></th>
+                    <th width="80%" scope="col"><font face="Helvetica, Arial, sans-serif" color="#ffffff"><b>Risk Mitigation Features</b></font></th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Temperature</td>
+                    <td><ul style="text-align: left; margin-right:3px;margin-left:-13px">
+                        <li>iQM2 continuously performs system fuction checks, including temperature checks</li>
+                    </ul></td>
+                </tr>
+                <tr>
+                    <td>Electrical</td>
+                    <td><ul style="text-align: left; margin-right:3px;margin-left:-13px">
+                        <li>iQM2 continuously performs system function checks, including electrical checks</li>
+                    </ul></td>
+                </tr>
+                <tr>
+                    <td>Dust</td>
+                    <td><ul style="text-align: left; margin-right:3px;margin-left:-13px">
+                        <li>Self-contained PAKs prevent dust from entering the system</li>
+                    </ul></td>
+                </tr>
+                <tr>
+                    <td>Barometric Pressure</td>
+                    <td><ul style="text-align: left; margin-right:3px;margin-left:-13px">
+                        <li>GEM Premier 5000 system operates independent of barometric pressure</li>
+                        <li>GEM PAK PCS bags have zero head space for operation over a wide range of atmospheric pressures with no change in dissolved gas concentration</li>
+                    </ul></td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Based on EP 18/23</p>
+    </risk.popup12.table>
+
+    <risk.popup13.table>
+        <span style="color: rgb(151, 32, 73);font-size:18px">POCT System Errors</span><br/><br/>
+        <table style="text-align: center;border-collapse: collapse;border: 1px solid black" width="100%">
+            <thead>
+                <tr style="background-color:#7D98AB">
+                    <th  width="20%" height="30px" scope="col"><font face="Helvetica, Arial, sans-serif" color="#ffffff">Sources of Error</font></th>
+                    <th width="80%" scope="col"><font face="Helvetica, Arial, sans-serif" color="#ffffff"><b>Risk Mitigation Features</b></font></th>
+                </tr>
+            </thead>
+
+            <tbody style="background-color:#ffffff">
+                <tr>
+                    <td>Instrument Failure</td>
+                    <td><ul style="text-align: left; margin-right:3px;margin-left:-13px">
+                        <li>System checks performed continuously (e.g., cartridge fluidics and mechanical, heater block temperature, sensor mV output threshold, and instrument electronic checks, including analog/digital electronic calibration verification and communication between processors)</li>
+                    </ul></td>
+                </tr>
+                <tr>
+                    <td>Electrical Instability</td>
+                    <td><ul style="text-align: left; margin-right:3px;margin-left:-13px">
+                        <li>iQM2 continuously performs system function checks, including electrical checks</li>
+                    </ul></td>
+                </tr>
+                <tr>
+                    <td>Inadequate Instrument Maintenance</td>
+                    <td><ul style="text-align: left; margin-right:3px;margin-left:-13px">
+                        <li>No required maintenance on hardware or GEM PAK</li>
+                        <li>iQM2 continuously performs system and PAK checks</li>
+                    </ul></td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Based on EP 18/23</p>
+    </risk.popup13.table>
+</translation>

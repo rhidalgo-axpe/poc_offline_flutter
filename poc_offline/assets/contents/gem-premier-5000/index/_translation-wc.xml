@@ -1,0 +1,1758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation>
+    <menubox>
+        <div class="panel-group" id="accordion1">
+            <!--Home-->
+            <div class="panel panel-default collapsiblemenu">
+                <div class="panel-heading tab header">
+                    <h4 class="panel-title first-level">
+                        <a onclick="window.myhypedocument.showSceneNamed('GEM-Premier-5000-System01');">Home</a>
+                    </h4>
+                </div>
+            </div>
+
+            <!--collapseOne-->
+            <div class="panel panel-default collapsiblemenu">
+                <div class="panel-heading tab">
+                    <h4 class="panel-title first-level">
+                        <a class="first-level" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne">
+                            <font face="FontAwesome" class="arrow"></font>
+                        </a>
+                        <a class="first-level" onclick="window.myhypedocument.showSceneNamed('Analyzer');">
+                            Analyzer
+                        </a>
+                    </h4>
+                </div>
+                <div style="margin-top: 15px;margin-bottom:15px" id="collapseOne" class="panel-collapse collapse" aria-expanded="false">
+                    <div class="panel-body second-level">
+                        <a href="#" onclick="window.myhypedocument.showSceneNamed('Advanced Simplicity with  Real-Time Assurance');">Advanced Simplicity with Real-Time Assurance</a>
+                    </div>
+                    <div class="panel-body second-level">
+                        <a href="#" onclick="window.myhypedocument.showSceneNamed('Custom-Quick-Start-Sampling');">Custom Quick Start Sampling</a>
+                    </div>
+                    <div class="panel-body second-level">
+                        <a href="#" onclick="window.myhypedocument.showSceneNamed('Smartcolor-Status-Bar');">Smartcolor Status Bar</a>
+                    </div>
+                    <div class="panel-body second-level last">
+                        <a href="#" onclick="window.myhypedocument.showSceneNamed('Quality-Assurance-Reports');">Quality Assurance Reports</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--collapseTwo-->
+            <div class="panel panel-default collapsiblemenu">
+                <div class="panel-heading tab">
+                    <h4 class="panel-title first-level">
+                        <a class="first-level" data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo">
+                            <font face="FontAwesome" class="arrow"></font>
+                        </a>
+                        <a class="first-level" onclick="window.myhypedocument.showSceneNamed('All-in-One-Multi-Use-GEM-PAK');">
+                            All-in-One, Multi-Use GEM PAK
+                        </a>
+                    </h4>
+                </div>
+                <div style="margin-top: 15px;margin-bottom:15px" id="collapseTwo" class="panel-collapse collapse" aria-expanded="false">
+                    <div class="panel-body second-level">
+                        <a href="#" onclick="window.myhypedocument.showSceneNamed('Self-Contained-Closed-System');">Self-Contained, Closed System</a>
+                    </div>
+                    <div class="panel-body second-level">
+                        <a href="#" onclick="window.myhypedocument.showSceneNamed('AutoPAK-Validation');">AutoPAK Validation</a>
+                    </div>
+                    <div class="panel-body second-level">
+                        <a href="#" onclick="window.myhypedocument.showSceneNamed('Sensor-Card');">Sensor Card</a>
+                    </div>
+                    <div class="panel-body second-level">
+                        <a href="#" onclick="window.myhypedocument.showSceneNamed('NIST-Traceable-Process-Control-Solutions');">NIST-Traceable Process Control Solutions</a>
+                    </div>
+                    <div class="panel-body second-level">
+                        <a href="#" onclick="window.myhypedocument.showSceneNamed('CO-Oximetry');">CO-Oximetry</a>
+                    </div>
+                    <div class="panel-body second-level last">
+                        <a href="#" onclick="window.myhypedocument.showSceneNamed('Test-Menu');">Test Menu</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--collapseThree-->
+            <div class="panel panel-default collapsiblemenu">
+                <div class="panel-heading tab">
+                    <h4 class="panel-title first-level">
+                        <a class="first-level" data-toggle="collapse" data-parent="#accordion1" href="#collapseThree">
+                            <font face="FontAwesome" class="arrow"></font>
+                        </a>
+                        <a class="first-level" onclick="window.myhypedocument.showSceneNamed('GEMweb-Plus-500-Custom-Connectivity');">
+                            GEMweb<sup>®</sup> Plus 500 Custom Connectivity
+                        </a>
+                    </h4>
+                </div>
+                <div style="margin-top: 15px;margin-bottom:15px" id="collapseThree" class="panel-collapse collapse" aria-expanded="false">
+                    <div class="panel-body second-level">
+                        <a href="#" onclick="window.myhypedocument.showSceneNamed('Simplify-POCT');">Simplify POCT</a>
+                    </div>
+                    <div class="panel-body second-level last">
+                        <a href="#" onclick="window.myhypedocument.showSceneNamed('Centralize-POCT');">Centralize POCT</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--collapseTools-->
+            <div class="panel panel-default collapsiblemenu">
+                <div class="panel-heading tab">
+                    <h4 class="panel-title first-level">
+                        <a data-toggle="collapse" data-parent="#accordion1" href="#collapseTools" class="collapsed" aria-expanded="false">
+                            <font face="FontAwesome" class="arrow"></font> Tools
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseTools" class="panel-collapse collapse" aria-expanded="false">
+                    <div class="panel-body">
+                        <div class="panel-group" id="accordion4">
+                            <div class="panel">
+                                <a class="second-level" data-toggle="collapse" data-parent="#accordion4" href="#collapseToolsOne">
+                                    <font face="FontAwesome" class="arrow"></font> Brochures
+                                </a>
+                                <div id="collapseToolsOne" class="panel-collapse collapse">
+                                    <div class="panel-body third-level"><a href="#" onclick="doOpenLibrary('gem-premier-5000-brochure')">GEM Premier 5000 Brochure</a></div>
+                                    <div class="panel-body third-level last"><a href="#" onclick="doOpenLibrary('gem-premier-5000-specification-sheet')">GEM Premier 5000 Specification Sheet</a></div>
+                                </div>
+                            </div>
+                            <div class="panel">
+                                <a class="second-level" data-toggle="collapse" data-parent="#accordion4" href="#collapseToolsTwo">
+                                    <font face="FontAwesome" class="arrow"></font> Videos
+                                </a>
+                                <div id="collapseToolsTwo" class="panel-collapse collapse">
+                                    <div class="panel-body third-level"><a href="#" onclick="window.myhypedocument.showSceneNamed('Video - Fluidics Animation');" class="video01">GEM Premier 5000 Fluidics Animation</a></div>
+                                    <div class="panel-body third-level last"><a href="#" onclick="window.myhypedocument.showSceneNamed('Video - Expanding Cartridge Animation');" class="video02">GEM Premier 5000 Expanding Cartridge Animation</a></div>
+                                </div>
+                            </div>
+                            <div class="panel">
+                                <a class="second-level" data-toggle="collapse" data-parent="#accordion4" href="#collapseToolsThree">
+                                    <font face="FontAwesome" class="arrow"></font> Case Studies
+                                </a>
+                                <div id="collapseToolsThree" class="panel-collapse collapse">
+                                    <div class="panel-body third-level">
+                                        <a href="#" onclick="doOpenLibrary('iso-22879-accreditation-made-easier')">ISO 22879 Accreditation Made Easier (Wythenshawe)</a>
+                                    </div>
+                                    <div class="panel-body third-level last">
+                                        <a href="#" onclick="doOpenLibrary('assessment-of-automatic-real-time-pre-analytical')">Assessment of automatic, real-time pre-analytical quality checks and tools for continuous improvement (Derriford)</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel">
+                                <a class="second-level" data-toggle="collapse" data-parent="#accordion4" href="#collapseToolsFour">
+                                    <font face="FontAwesome" class="arrow"></font> Clinical Papers
+                                </a>
+                                <div id="collapseToolsFour" class="panel-collapse collapse">
+                                    <div class="panel-body third-level">
+                                        <a href="#" onclick="doOpenLibrary('2017-aacc-gem')">2017 AACC GEM Premier 5000 Clinical Evaluation at CHR Citadelle (Belgium)</a>
+                                    </div>
+                                    <div class="panel-body third-level">
+                                        <a href="#" onclick="doOpenLibrary('2018-aacc-gem')">2018 AACC GEM Premier 5000 Perfomance at CHR Citadelle (Belgium)</a>
+                                    </div>
+                                    <div class="panel-body third-level">
+                                        <a href="#" onclick="doOpenLibrary('meeting-iso-15189-2012-2287-2016')">Meeting ISO 15189:2012 and 22870:2016 Requirements for Quality and Competence</a>
+                                    </div>
+                                    <div class="panel-body third-level">
+                                        <a href="#" onclick="doOpenLibrary('ica-clinical-and-economic-reprint-holder')">iCa Clinical and Economic Reprint Holder</a>
+                                    </div>
+                                    <div class="panel-body third-level last">
+                                        <a href="#" onclick="doOpenLibrary('ionized-calcium-accuracy-at-low-levels')">Ionized Calcium Accuracy at Low Levels</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel">
+                                <a class="second-level" data-toggle="collapse" data-parent="#accordion4" href="#collapseToolsFive">
+                                    <font face="FontAwesome" class="arrow"></font> Calculators
+                                </a>
+                                <div id="collapseToolsFive" class="panel-collapse collapse">
+                                    <div class="panel-body third-level last">
+                                        <a href="#" onclick="doOpenVisual('calc-cooxv8')">Benefits of CO-Ox Monitoring in RBC Transfusions: CABG and VR</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel">
+                                <a class="second-level" data-toggle="collapse" data-parent="#accordion4" href="#collapseToolsSix">
+                                    <font face="FontAwesome" class="arrow"></font> Presentations
+                                </a>
+                                <div id="collapseToolsSix" class="panel-collapse collapse">
+                                    <div class="panel-body third-level last">
+                                        <a href="#" onclick="doOpenVisual('gem-premier-5000-promotional')">GEM Premier 5000 Promotional PPT</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--collapseRelated-->
+            <div class="panel panel-default collapsiblemenu">
+                <div class="panel-heading tab">
+                    <h4 class="panel-title first-level">
+                        <a data-toggle="collapse" data-parent="#accordion1" href="#collapseRelated" class="collapsed" aria-expanded="false">
+                            <font face="FontAwesome" class="arrow"></font> Related Products
+                        </a>
+                    </h4>
+                </div>
+                <div style="margin-top: 15px;" id="collapseRelated" class="panel-collapse collapse" aria-expanded="false">
+                    <div class="panel-body second-level">
+                        <a href="#" onclick="doOpenVisual('vdemo-iqm2')">iQM2</a>
+                    </div>
+                    <div class="panel-body second-level">
+                        <a href="#" onclick="doOpenVisual('gemweb-plus-500')">GEMweb Plus Custom Connectivity</a>
+                    </div>
+                    <div class="panel-body second-level">
+                        <a href="#" onclick="doOpenVisual('gem-premier-4000')">GEM Premier 4000</a>
+                    </div>
+                    <div class="panel-body second-level">
+                        <a href="#" onclick="doOpenVisual('gem-premier-3500')">GEM Premier 3500</a>
+                    </div>
+                    <div class="panel-body second-level last">
+                        <a href="#" onclick="doOpenVisual('gem-premier-chemstat')">GEM Premier ChemSTAT</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </menubox>
+
+    <system.overview>System Overview
+        <p style="color:#212121; font-size:18px">Offers real-time assurance, advanced<br/>
+            simplicity, and complete control<br/>
+            in the lab and at the point of care.</p>
+    </system.overview>
+    <gem5k.title>GEM Premier 5000 with iQM2
+        <p style="color:#212121; font-size:18px">A complete solution for improved patient care and efficiency.</p>
+    </gem5k.title>
+    <gempak.title>All-in-One, Multi-Use GEM PAK<p style="color:#212121; font-size:18px">Advanced simplicity at the point of care.</p></gempak.title>
+    <detail01>Waste bag</detail01>
+    <detail02>PCS B</detail02>
+    <detail03>PCS E</detail03>
+    <detail04>PCS D</detail04>
+    <detail05>PCS C</detail05>
+    <detail06>PCS A</detail06>
+    <detail07>Lysing<br/>solution</detail07>
+    <detail08>Reference<br/>solution</detail08>
+
+    <gemweb5.title>GEMweb Plus 500<p style="color:#212121; font-size:18px">Management and compliance simplified.</p></gemweb5.title>
+
+    <gem5k.text>
+        GEM Premier 5000 with iQM2
+        <p style="color:#212121; font-size:18px">Portable blood gas system to rapidly analyze heparinized whole blood samples at the point-of-care and in the laboratory.</p>
+        <p style="color:#212121; font-size:18px">Quantitative measurement of the following analytes: pH, <i>p</i>CO<sub>2</sub>, <i>p</i>O<sub>2</sub>, Na<sup>+</sup>, K<sup>+</sup>, Ca<sup>++</sup>, CI<sup>-</sup>, Hct, Glu, Lac, tBili, tHb, O<sub>2</sub>Hb, COHb, MetHb, HHb and sO<sub>2</sub></p>
+<font size="4"><b><br/><br/><br/><br/>New features deliver advanced cybersecurity, enhanced Wi-Fi and remote support.</b></font>
+    </gem5k.text>
+    <gem5k.button1>
+        <ul>
+            <li>Provides high-powered processing of results and reports.</li>
+            <li>Designed for intuitive operation by any operator.</li>
+        </ul>
+    </gem5k.button1>
+    <gem5k.button2>GEM PAK contains all components required for analysis and eliminates analyzer maintenance.</gem5k.button2>
+
+    <new.link>01<span style="margin-left: 50px;">Advanced Simplicity with</span>
+        <br/>
+        <span style="margin-left: 70px;">Real-Time Assurance</span></new.link>
+    <quick.link>02<span style="margin-left: 50px;">Custom Quick Start Sampling</span></quick.link>
+    <smartcolor.link>03<span style="margin-left: 50px;">Smartcolor Status Bar</span></smartcolor.link>
+    <quality.link>04<span style="margin-left: 50px;">Quality Assurance Reports</span></quality.link>
+
+    <gem5k.popup1>
+        <div>
+            Testimonial
+            <p style="font-size: 44px;margin: 20px 0 35px 0;">
+                “It puts everything in front that you’re looking for so you don’t have to search...very easy to aspirate...very
+                self-explanatory...[overall] very easy to use, and there’s less contact with the blood, so less chance of
+                getting it on yourself.” </p>
+            <span style="font-size: 18px;">
+                <p>Respiratory Therapist<br/>
+                    <i>GEM Premier 5000 System Human Factors <br/>Testing Participant - (i-STAT user)</i></p>
+                GEM Premier 5000 System Human Factors Testing. Data on file, IL.
+            </span>
+        </div>
+    </gem5k.popup1>
+
+    <gem5k.popup2.table>
+        <table class="wtable" width="100%">
+            <thead>
+                <tr style="background-color:#7D98AB">
+                    <th colspan="2" width="20%" height="45px" scope="col">Specifications – Analytes, Parameters, Time to Result and Sample Type</th>
+                </tr>
+            </thead>
+
+            <tbody style="background-color:#ffffff">
+                <tr>
+                    <td width="15%">Measured<br/>Analytes</td>
+                    <td width="85%" class="table-text">pH, <i>p</i>CO<sub>2</sub>, <i>p</i>O<sub>2</sub>, Na<sup>+</sup>, K<sup>+</sup>, Ca<sup>++</sup>, Cl<sup>-</sup>, Glu, Lac, Hct, tHb, O<sub>2</sub>Hb, COHb, MetHb, HHb, tBili<sup>*</sup> sO<sub>2</sub><sup>**</sup></td>
+                </tr>
+                <tr>
+                    <td>Derived<br/>Parameters</td>
+                    <td class="table-text">BE(B), BE(ecf), tHb(c), Ca<sup>++</sup>(7.4), Anion gap (AG), P/F ratio, pAO<sub>2</sub>, CaO<sub>2</sub>, CvO<sub>2</sub>, <i>p</i><sub>50</sub>, O<sub>2</sub>cap, sO<sub>2</sub>(c), O<sub>2</sub>ct, HCO<sub>3</sub><sup>-</sup>std, TCO<sub>2</sub>, HCO<sub>3</sub><sup>-</sup>(c), A-aDO<sub>2</sub>, <i>pa</i>O<sub>2</sub>/<i>p</i>AO<sub>2</sub>, RI, CcO<sub>2</sub>, a-vDO<sub>2</sub>, Q<sub>sp</sub>/Q<sub>t</sub> (est), Q<sub>sp</sub>/Q<sub>t</sub>, Hct(c)</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Time to<br/>Results</td>
+                    <td class="table-text">45 seconds from simple introduction, including IntraSpect quality check</td>
+                </tr>
+                <tr>
+                    <td class="table-text">Sample capacity: 75-600 tests</td>
+                </tr>
+                <tr>
+                    <td class="table-text">Throughput: 29 samples/hour</td>
+                </tr>
+                <tr>
+                    <td>Sample Type</td>
+                    <td class="table-text">Heparinized whole blood</td>
+                </tr>
+                <tr>
+                    <td class="table-text small-text" colspan="2"><sup>*</sup>PAKs available with or without tBili.<br/><sup>**</sup>sO<sub>2</sub> = Ratio between the concentration of oxyhemoglobin and oxyhemoglobin plus deoxyhemoglobin.</td>
+                </tr>
+            </tbody>
+        </table>
+    </gem5k.popup2.table>
+
+    <gem5k.popup3.table>
+        <table class="wtable" width="100%">
+            <thead>
+                <tr style="background-color:#7D98AB">
+                    <th colspan="2" width="20%" height="45px" scope="col">Specifications – GEM PAK, Interface Protocols and Dimensions</th>
+                </tr>
+            </thead>
+            <tbody style="background-color:#ffffff">
+                <tr>
+                    <td rowspan="2" width="15%">All-in-One, Multi-Use GEM PAK</td>
+                    <td width="85%" class="table-text">5 Process Control Solutions (PCSs)</td>
+                </tr>
+                <tr>
+                    <td class="table-text">31-day onboard stability*</td>
+                </tr>
+                <tr>
+                    <td>Interface Protocols</td>
+                    <td class="table-text">ASTM or HL7 enables data transmission to laboratory, hospital or third-party information-management system</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Dimensions and Weight</td>
+                    <td class="table-text">Instrument - H: 18.6 in, W: 13 in, D: 16.4 in, Wt: 45.4 lbs</td>
+
+                </tr>
+                <tr>
+                    <td class="table-text">GEM PAK - H: 6.75 in, W: 10 in, D: 8 in, Wt: 8.1 lbs</td>
+                </tr>
+                <tr>
+                    <td class="table-text small-text" colspan="2">*All PAKs, except 600-test PAK which has a 21-day use-life</td>
+                </tr>
+            </tbody>
+        </table>
+    </gem5k.popup3.table>
+
+    <new.text>Advanced Simplicity with <br/>Real-Time Assurance
+        <span style="color:#212121; font-size:18px">
+            <ul style="color:#212121; font-size:18px">
+                <li>Custom Quick Start sampling</li>
+                <li>Smartcolor status bar</li>
+                <li>i-button for iQM2</li>
+                <li>Illuminated sampling area</li>
+                <li>Universal sampling</li>
+                <li>Rapid time to results: 45 seconds</li>
+                <li>iQM2 with IntraSpect<sup>™</sup> technology</li>
+                <li>AutoPAK Validation</li>
+            </ul></span>
+    </new.text>
+    <new.01><b>Custom Quick<br/>Start sampling</b>
+        <br/>
+        <font color="#565656">Programmed shortcuts<br/>expedite testing</font><br/></new.01>
+    <new.02><b>Illuminated<br/>sampling area</b>
+        <br/>
+        <font color="#565656">Ensures proper<br/>sample insertion
+        </font></new.02>
+    <new.03><b>Universal sampling</b>
+        <br/>
+        <font color="#565656">Accepts tubes<br/>and syringes</font><br/></new.03>
+    <new.04><b>iQM2 with IntraSpect<br/>technology</b>
+        <br/>
+        <font color="#565656">Provides a complete picture of<br/>quality for each sample</font><br/></new.04>
+    <new.05><b>AutoPAK validation</b>
+        <br/>
+        <font color="#565656">Standardizes time-to-ready state</font><br/></new.05>
+    <new.06><b>Motion-detection<br/>barcode reader</b>
+        <br/>
+        <font color="#565656">Enables one-hand use</font><br/></new.06>
+    <new.07><b>i-button for iQM2</b>
+        <br/>
+        <font color="#565656">Conveys real-time<br/>iQM2 status</font></new.07>
+    <new.08><b>Fast time to result</b>
+        <br/>
+        <font color="#565656">45 second including quality checks</font></new.08>
+    <new.09><b>Smartcolor status bar</b>
+        <br/>
+        <font color="#565656">Analyzer status at a <br/>glance</font><br/></new.09>
+    <new.popup01>
+        <div>
+            Testimonial
+            <p style="font-size: 44px;margin: 20px 0 35px 0;">
+                “iQM2 provides faster cartridge initialization, enhanced sample interference detection and scores high for ease-of-use by POC operators.”
+            </p>
+            <span style="font-size: 18px;">
+                <p>James A Nichols, PhD<br/>
+                    <i>Medical Director, Clinical Chemistry, and Associate Medical Director for Clinical Operations<br/>
+                        Vanderbilt University School of Medicine, Nashville, TN, USA</i></p>
+                <p><i>GEM Premier 5000 Clinical Evaluation. Poster presented at: 26th International AACC Point-of-Care Conference: Sept. 2016; Copenhagen, Denmark.</i></p></span>
+        </div>
+    </new.popup01>
+    <new.popup02>
+        <ul>
+            <li>Provides one-touch menu selection with flexible configurations, customizable by department</li>
+            <li>Reduces pre-analytical interaction time with the analyzer, enabling more time for patient care</li>
+            <li>Improves overall sample-processing efficiency by reducing time to result</li>
+        </ul>
+    </new.popup02>
+    <new.popup03>
+        <ul>
+            <li>Ensures proper sample introduction, for accurate aspiration with every sample</li>
+            <li>
+                Improves patient care by reducing sample re-draws
+                <ul>
+                    <li>Guides operator during aspiration of short samples, avoiding patient sample waste</li>
+                </ul>
+            </li>
+            <li>Enhances visibility in dimly lit environments</li>
+        </ul>
+    </new.popup03>
+    <new.popup04>
+        <ul>
+            <li>Ensures proper insertion of sample device</li>
+            <li>Ergonomic sampler provides ambidextrous sample introduction, improving ease-of-use for a variety of operators</li>
+            <li>Tactical feedback guides sampling device to accurate aspiration position</li>
+            <li>Visual and audible feedback inform user when sample aspiration is complete</li>
+        </ul>
+    </new.popup04>
+    <new.popup05>
+        <ul>
+            <li>Offers analyzer status at a glance</li>
+            <li>
+                Clear color-coding:
+                <ul>
+                    <li>Green = ready</li>
+                    <li>Blue = ready (interruptible process)</li>
+                    <li>Yellow = user action</li>
+                    <li>Red = locked state</li>
+                </ul>
+            </li>
+            <li>Provides real-time messaging for all analysis and quality processes</li>
+        </ul>
+    </new.popup05>
+    <new.popup06>
+        <ul>
+            <li>
+                Provides real-time information on iQM2 and sample workflow processes, including:
+                <ul>
+                    <li>Rinsing, Sensor Checks, iQM2 Checks, IntraSpect Checks, Pattern Recognition Checks</li>
+                </ul>
+            </li>
+            <li>Count-down timer informs user when analyzer will be ready to run the next sample, allowing the user to
+                plan analysis activities
+            </li>
+        </ul>
+    </new.popup06>
+    <new.popup07>
+        <ul>
+            <li>Conveys status of analyzer and analytes quickly</li>
+            <li>Offers status descriptions for every analyte with the touch of a button, from the Quick Start GUI</li>
+            <li>Provides analyzer/analyte status to inform decision making</li>
+        </ul>
+    </new.popup07>
+    <new.popup08>
+        <ul>
+            <li>Hands-free in presentation mode</li>
+            <li>Enables one-handed scanning for patient identification</li>
+            <li>Flexible installation (on left or right side of analyzer) to support various user and space
+                requirements
+            </li>
+            <li>Allows for hand-held remote scanning for hard-to-reach barcodes</li>
+        </ul>
+    </new.popup08>
+    <new.popup09>
+        <ul>
+            <li>Provides a complete picture of quality for each sample, for real-time quality assurance</li>
+            <li>
+                Detects abnormal sensor response or residual error during the measurement process that may be caused by:
+                <ul>
+                    <li>Micro-clots, micro-bubbles, interferences, or dyes/lipids in CO-Ox</li>
+                </ul>
+            </li>
+            <li>Identifies sensor-slope shape and coefficient deviation</li>
+        </ul>
+    </new.popup09>
+    <new.popup10>
+        <ul>
+            <li>Automatically standardizes time-to-ready state after PAK insertion</li>
+            <li>Ensures system is ready to provide quality-assured, optimal results in less than one hour after GEM PAK insertion</li>
+            <li>No additional hands-on time required&#8212;just replace the PAK once every 31 days*</li>
+        </ul>
+        <span style="font-size:14px">
+            * 21-day onboard use-life for 600-test PAK.
+        </span>
+    </new.popup10>
+    <new.popup11>Enhanced Speed and Throughput with Quality Checks
+        <ul>
+            <li>45-second time-to-result, 29 samples/hour for improved efficiency</li>
+            <li>Performs IntraSpect checks during sample measurement process, to ensure rapid quality results</li>
+            <li>Ensures quality and speed for improved patient care</li>
+        </ul>
+    </new.popup11>
+
+    <new.popup02.title>Custom Quick Start GUI</new.popup02.title>
+    <new.popup03.title>Illuminated Sampling Area</new.popup03.title>
+    <new.popup04.title>Universal Sampling</new.popup04.title>
+    <new.popup05.title>Smartcolor Status Bar</new.popup05.title>
+
+    <new.popup06.title>Smartcolor Status Bar</new.popup06.title>
+    <new.popup06.img01>Area/GEM 5000<br/><b><font size="5">Analyzing</font></b></new.popup06.img01>
+    <new.popup06.img02><b><font size="5">Analyzing<br/>Aspiration</font></b></new.popup06.img02>
+    <new.popup06.img03><b><font size="5">Analyzing<br/>Sample Check</font></b></new.popup06.img03>
+    <new.popup06.img04><b><font size="5">Analyzing<br/>Sample Measurement</font></b></new.popup06.img04>
+    <new.popup06.img05><b><font size="5">Analyzing<br/>IntraSpect Check</font></b></new.popup06.img05>
+
+
+    <new.popup07.title>i-Button for iQM2</new.popup07.title>
+    <new.popup08.title>Barcode Reader</new.popup08.title>
+    <new.popup09.title>iQM2 with IntraSpect Technology</new.popup09.title>
+    <new.popup10.title>AutoPAK Validation (APV)</new.popup10.title>
+    <new.popup11.title>IntraSpect</new.popup11.title>
+    <new.popup11.img01>15 sensor readings are collected<br/>and analyzed in 15 seconds.</new.popup11.img01>
+    <new.popup11.img02>Sample volume<br/>and sample<br/>integrity check</new.popup11.img02>
+    <new.popup11.img03>System <br/>Check</new.popup11.img03>
+    <new.popup11.img04>IntraSpect</new.popup11.img04>
+    <new.popup11.img05>Time (secs)</new.popup11.img05>
+
+    <quickstart.text>Custom Quick Start Sampling
+        <p style="color:#212121; font-size:20px">Programs shortcuts to expedite testing:</p>
+        <ul style="color:#212121; font-size:20px">
+            <li>Reduces actions required to initiate testing</li>
+            <li>Reduces potential for errors during sample analysis</li>
+        </ul>
+        <p style="color:#212121; font-size:20px">Enables staff to spend less time with the analyzer and more time at the patient bedside</p>
+    </quickstart.text>
+    <quickstart.popup01>
+        <div>
+            Testimonial
+            <p style="font-size: 44px;margin: 20px 0 35px 0;">
+                “After a brief introduction, all users were able to operate the GEM Premier 5000 without errors. This is due to the intuitive user interface [...]. The configurable Quick Start menu allows analysis to be started with just one button.”
+            </p>
+            <span style="font-size: 18px;">
+                <p>Hugo Stiegler, MD<br/>
+                    <i>Head of Department Laboratory Medicine</i><br/>
+                    <i>Bergmannsheil, Bochum Germany</i></p>
+                <p>Das Intelligente Blutgas-Analysesystem. <i>Medzin Wissenschaft. 2016;May;16-7</i></p>
+            </span>
+        </div>
+    </quickstart.popup01>
+
+    <smartcolor.text>Smartcolor Status Bar
+        <p style="color:#212121; font-size:20px">Analyzer status at a glance:</p>
+        <ul style="color:#212121; font-size:20px">
+            <li>Delivers real-time iQM2 updates</li>
+            <li>Provides instant analyzer and<br/>analyte status</li>
+        </ul>
+    </smartcolor.text>
+
+    <quality.text>
+        Quality Assurance Reports
+        <p style="color:#212121; font-size:20px">Regulatory compliance is effortless. Report generated automatically and available on-demand, including:</p>
+        <ul style="color:#212121; font-size:20px">
+            <li>iQM2 Delta Chart</li>
+            <li>iQM2 Corrective Action</li>
+            <li>CVP</li>
+            <li>Patient History</li>
+            <li>Advanced Reports*</li>
+            <li style="list-style-type: none;">
+                <ul>
+                    <li>Audit Logs</li>
+                    <li>Sample Handling</li>
+                    <li>eSignature Workflow</li>
+                    <li>Sample Turnaround Time</li>
+                </ul>
+            </li>
+        </ul>
+        <p class="footnote"><span style="margin-left: -5px;">*</span>Available on demand from analyzer, PC or tablet<br/>with GEMweb Plus 500 Custom Connectivity</p>
+    </quality.text>
+    <quality.button>Review enhanced reports on system, or remotely via GEMweb Plus 500 Custom Connectivity</quality.button>
+    <quality.popup01>
+        <div>
+            Testimonial
+            <p style="font-size: 44px;margin: 20px 0 35px 0;">
+                “New features of the GEM Premier 5000 system contribute to improved risk-control, especially in POC conditions.”
+            </p>
+            <span style="font-size: 18px;">
+                <p>Benedicte Neneteau-burnat, <i>et al.</i><br/>
+                    <i>Biochemical Laboratory</i><br/>
+                    <i>Saint Antoine Hospital Paris, France</i></p>
+                <p>GEM Premier 5000 (Werfen): Analyzer evaluation, risk assessment and practicability. Poster presented at: 26th International AACC Point-of-Care Conference; Sept. 2016; Copenhagen, Denmark.</p>
+            </span>
+        </div>
+
+    </quality.popup01>
+    <quality.popup02>iQM2 Delta Chart Reports are automatically generated for each PCS, assuring documentation compliance. Available in print-format or viewable on analyzer screen.</quality.popup02>
+    <quality.popup03>iQM2 Corrective Action Reports automate manual troubleshooting and documentation, simplifying regulatory compliance. Available in print-format or viewable on analyzer screen.</quality.popup03>
+    <quality.popup04>iQM2 CVP Reports document AutoPAK Validation (APV) prior to clinical use. Available in print-format or viewable on analyzer screen.</quality.popup04>
+    <quality.popup05>Trending reports for monitoring critical levels, history and delta measurements available on the analyzer, or remotely with GEMweb Plus 500 Custom Connectivity. Critical Values can be configured by the user for ultimate simplicity.</quality.popup05>
+    <quality.popup06>Available with GEMweb Plus 500 Custom Connectivity and accessible from analyzer, Audit Logs provide full visibility and traceability of:
+        <ul style="margin-top:7px">
+            <li>Patient record amendment and access</li>
+            <li>System configuration and access</li>
+            <li>Operator security configuration</li>
+        </ul></quality.popup06>
+    <quality.popup07>Configurable electronic signature workflows ensure a timely and complete quality assurance program, inspection-ready at the touch of a button. Available with GEMweb Plus 500 Custom Connectivity and accessible from analyzer.</quality.popup07>
+    <quality.popup08>Available with GEMweb Plus 500 Custom Connectivity and accessible from analyzer, Enhanced Reports facilitate targeted operator training, for improved efficiency.
+        <ul style="margin-top:7px">
+            <li>Sample Turnaround Reports provide detailed examination of operator turnaround time.</li>
+        </ul></quality.popup08>
+    <quality.popup09>Available with GEMweb Plus 500 Custom Connectivity and accessible from analyzer, Enhanced Reports facilitate targeted operator training, for improved efficiency.
+        <ul style="margin-top:7px">
+            <li>Sample Handling Reports link Corrective Action Report data to corresponding operators.</li>
+        </ul></quality.popup09>
+
+    <allinone.text>All-in-One, Multi-Use GEM PAK<p style="color:#212121; font-size:20px">Contains all analytical testing components in a single, maintenance-free, closed system. Enables patented iQM2 Pattern Recognition software to predict errors, ensuring accuracy of results. No user intervention required.</p></allinone.text>
+
+    <self.link>01<span style="margin-left: 50px;">Self-Contained, Closed System</span></self.link>
+    <autopak.link>02<span style="margin-left: 50px;">AutoPAK Validation</span></autopak.link>
+    <sensor.link>03<span style="margin-left: 50px;">Sensor Card</span></sensor.link>
+    <nist.link>04<span style="margin-left: 50px;">NIST-Traceable Process Control</span><br/><span style="margin-left: 70px;">Solutions (PCSs)</span></nist.link>
+    <coox.link>05<span style="margin-left: 50px;">CO-Oximetry</span></coox.link>
+    <test.link>06<span style="margin-left: 50px;">Test Menu</span></test.link>
+
+    <allinone.button01>Analyzes 5 levels of Process Control Solutions (PCSs) continuously to confirm sensor and PAK performance.</allinone.button01>
+    <allinone.button02>The only testing system with an all-in-one, multi-use cartridge.</allinone.button02>
+    <allinone.popup01>
+        <div>
+            Testimonial
+            <p style="font-size: 44px;margin: 20px 0 25px 0;">
+                “[Our] analysis confirmed [...] the continuity and operational reliability offered by [GEM Premier systems with iQM]. [...] The advantage of [iQM] analytical data and [GEM PAK] “all-in-one” philosophy has been demonstrated.”
+            </p>
+            <span style="font-size: 18px;">
+                <p>Marco Rambaldi, MD<br/>
+                    <i>Director, Post Operative Intensive Care<br/>
+                        AUSL Ospedae Nuevo Sant'Agostino<br/>
+                        Modena, Italy</i></p>
+                <p>Blood gas and patient safety: considerations based on experience developed in accordance with Risk Management perspective. <i>Clin Chem Lab Med</i>, 2007;46(6):774-80. [study revealed significant labor savings, enhanced productivity and reduced risk compared to traditional systems].
+                </p>
+            </span>
+        </div>
+    </allinone.popup01>
+    <allinone.popup02><ul>
+        <li>Each PCS serves a specific function within iQM2 processes</li>
+        <li>Established target values across all PCSs monitor MDLs and ensure accuracy of results</li>
+    </ul></allinone.popup02>
+
+    <allinone.popup02.table>
+        <table class="wtable" width="100%">
+            <thead>
+                <tr>
+                    <th class="granate" colspan="2" width="20%" height="30px" scope="col">Process Control Solution (PCS) Functionality</th>
+                </tr>
+            </thead>
+            <thead>
+                <tr>
+                    <th height="25px" scope="col">PCS</th>
+                    <th height="25px" scope="col">Measurement Assessment</th>
+                </tr>
+            </thead>
+            <tbody style="background-color:#ffffff">
+                <tr>
+                    <td width="10%">A</td>
+                    <td width="90%" class="table-text"><ul><li>Measures sensitivity/drift and accuracy at Medical Decision Levels (MDLs)</li>
+                        <li>Utilized for pattern recognition check and verification</li></ul></td>
+                </tr>
+                <tr>
+                    <td>B</td>
+                    <td class="table-text"><ul><li>Measures drift and accuracy at MDLs</li><li>Utilized for pattern recognition check and verification</li><li>Utilized as corrective action for clots and high frequency after interference</li><li>Remains over sensors with outputs checked every 30 seconds</li></ul></td>
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <td class="table-text"><ul><li>Measures drift at low level <i>p</i>O<sub>2</sub>, pH and <i>p</i>CO<sub>2</sub></li>
+                        <li>Conditions interference rejection membrane for glucose/lactate</li></ul></td>
+                </tr>
+                <tr>
+                    <td>D</td>
+                    <td class="table-text"><ul><li>Used for AutoPAK Validation (APV) prior to sample analysis</li><li>Measures drift and accuracy at MDLs</li></ul></td>
+                </tr>
+                <tr>
+                    <td>E</td>
+                    <td class="table-text"><ul><li>Used for APV prior to sample analysis</li><li>Measures drift and accuracy at MDLs</li></ul></td>
+                </tr>
+            </tbody>
+        </table>
+    </allinone.popup02.table>
+
+    <allinone.popup03.title>Sensor Card Test Equipment</allinone.popup03.title>
+    <allinone.popup03><ul>
+        <li>100% use-life guarantee for every GEM PAK</li>
+        <li>
+            Every sensor card is 100% tested utilizing NIST-traceable solution prior to GEM PAK build
+            <ul>
+                <li>Ensures quality of each analyte prior to clinical use</li>
+            </ul>
+        </li>
+    </ul></allinone.popup03>
+    <allinone.popup04.title>Rigorous Simulation Testing Ensures PAK Performance</allinone.popup04.title>
+    <allinone.popup04>All PCS lot combinations are tested with aqueous and whole blood samples in the Customer Simulation Lab, prior to customer shipment.</allinone.popup04>
+    <allinone.popup05.title>Quality Checks at Every Stage</allinone.popup05.title>
+    <allinone.popup05>Prior to GEM PAK shipment, quality checks are performed during each manufacturing stage, ensuring GEM PAK performance and integrity.</allinone.popup05>
+
+    <self.text>Self-Contained, Closed System
+        <p style="color:#212121; font-size:20px">Automates the most labor- and skill- intensive processes:</p>
+        <ul style="color:#212121; font-size:20px">
+            <li>Zero maintenance: one room- temperature PAK to inventory and manage</li>
+            <li>Replaced every 31 days*: no hands- on troubleshooting or corrective actions required</li>
+            <li>Ensures patient and operator safety: biohazard exposure minimized</li>
+        </ul>
+        <p style="color:#212121; font-size: 14px;">* 21-day onboard use-life for 600-test PAK.</p>
+    </self.text>
+    <self.button>GEM PAK contains all analytical and quality control components.</self.button>
+    <self.popup01>
+        <div>
+            Testimonial
+            <p style="font-size: 48px;margin: 20px 0 35px 0;">
+                “iQM greatly simplifies the testing process and allows caregivers to use the test data in an environment of assured quality to focus, appropriately, on the patient.”
+            </p>
+            <span style="font-size: 18px;">
+                <p>Sharon Ehrmeyer, PhD<br/>
+                    <i>Professor, Pathology and Laboratory Medicine<br/>
+                        University of Wisconsin School of Medicine and Public Health</i></p>
+                <p>From Quality Control and Quality Assurance to Assured Quality. <i>Point Care</i>. 2013;2:188-94.
+                </p>
+            </span>
+        </div>
+    </self.popup01>
+    <self.popup02>
+        <ul>
+            <li>PCSs are traceable to National Institute of Standards and Technology (NIST) or Clinical and Laboratory Standards Institute (CLSI) primary standards</li>
+            <li>PCSs are performed continuously and after every sample, exceeding the frequency of normal traditional quality control</li>
+        </ul>
+    </self.popup02>
+
+
+    <self.popup02.table>
+        <table class="wtable" width="100%">
+            <thead>
+                <tr>
+                    <th height="25px" scope="col">PCS</th>
+                    <th height="25px" scope="col">Measurement Assessment</th>
+                </tr>
+            </thead>
+            <tbody style="background-color:#ffffff">
+                <tr>
+                    <td width="10%">A</td>
+                    <td width="90%" class="table-text">Every 4 hours</td>
+                </tr>
+                <tr>
+                    <td>B</td>
+                    <td class="table-text">Every 30 minutes or after every sample, whichever comes first.<br/>Every 30 seconds when no samples run</td>
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <td class="table-text">Every 24 hours</td>
+                </tr>
+                <tr>
+                    <td>D</td>
+                    <td class="table-text">Every 12 hours</td>
+                </tr>
+                <tr>
+                    <td>E</td>
+                    <td class="table-text">Every 12 hours</td>
+                </tr>
+            </tbody>
+        </table>
+    </self.popup02.table>
+
+    <self.popup03.title>Annual Cartridge Utilization Comparison</self.popup03.title>
+    <self.popup03.img01>All-in-One, multi-use cartridge (room temp)</self.popup03.img01>
+    <self.popup03.img02>Solution cartridge</self.popup03.img02>
+    <self.popup03.img03>Sensor cartridge</self.popup03.img03>
+    <self.popup03.img04>QC cartridge</self.popup03.img04>
+    <self.popup03.img05>12/year</self.popup03.img05>
+    <self.popup03.img06>≈ 40/year</self.popup03.img06>
+    <self.popup03.img07>≈ 60/year</self.popup03.img07>
+    <self.popup03.img08>2-cartridge<br/>system</self.popup03.img08>
+    <self.popup03.img09>3-cartridge<br/>system</self.popup03.img09>
+    <self.popup03.img10>Based on 1 analyzer with annual sample volume ≈ 4,800 and QC requirement of 3 times/day. Data on file, IL.<br/>
+        Requires refrigeration.</self.popup03.img10>
+
+    <self.popup03><ul>
+        <li>Includes all testing components: sensors, CO-Ox optical cell, lysing solution, PCSs, tubing, waste bag and sampler</li>
+        <li>Only 1 PAK to inventory and manage, including all solutions, sensors and quality control</li>
+    </ul></self.popup03>
+    <self.popup04.title>Positive Impact on Staff Time</self.popup04.title>
+    <self.popup04.img01>Annual Manual Hands-On Time Required (Hrs)</self.popup04.img01>
+    <self.popup04.img02>Annual Sample Volume<br/>
+        Minnimum Daily QC Requirement<br/>
+        Number of Analyzers
+    </self.popup04.img02>
+
+    <self.popup04>Automates the most labor-intensive tasks associated with analyzer maintenance/troubleshooting and quality management.</self.popup04>
+    <self.popup05.title>Ensures Patient and Operator Safety</self.popup05.title>
+    <self.popup05><ul>
+        <li>All components are self-contained, limiting biohazard exposure for operator</li>
+        <li>No blood flows through the analyzer, confining blood waste to the disposable GEM PAK</li>
+    </ul></self.popup05>
+
+    <autopak.text>AutoPAK Validation<p style="color:#212121; font-size:20px">Two independent NIST-traceable solutions automatically validate PCS integrity and overall system performance prior to sample analysis.</p>
+        <ul style="color:#212121; font-size:20px">
+            <li>Reduces consumable requirements (ampoules)</li>
+            <li>Consistently validates GEM PAK prior to sample aspiration with &lt;1 hr time-to-ready</li>
+            <li>Reduces staff time</li>
+        </ul></autopak.text>
+    <autopak.button>After succesful installation and validation through APV, GEM PAK is available for patient sample analysis and iQM2 assumes control of the analytical system.</autopak.button>
+    <autopak.popup02.title>Time to Ready in &lt;1 Hour, with AutoPAK Validation (APV)</autopak.popup02.title>
+    <autopak.popup02><ul>
+        <li>97.2% GEM PAKs ready &lt;60 minutes</li>
+        <li>99.2% GEM PAKs ready &lt;70 minutes</li>
+    </ul></autopak.popup02>
+    <autopak.popup03>
+        <ul>
+            <li>Automatically standardizes time-to-ready state after PAK insertion</li>
+            <li>Ensures system is ready to provide quality-assured, optimal results in >1 hour after GEM PAK insertion</li>
+            <li>No additional hands-on time required──just replace the PAK once every 31 days*</li>
+        </ul>
+        <span style="font-size:14px">
+            * 21-day onboard use-life for 600-test PAK.
+        </span>
+    </autopak.popup03>
+
+    <sensor.text>Sensor Card
+        <p style="color:#212121; font-size:20px">Integral to the GEM PAK, the miniaturized sensor-card design optimizes analytical performance.</p>
+        <ul style="color:#212121; font-size:20px">
+            <li>Up to 10 analytes</li>
+            <li>Up to 600 samples (&gt;9,000 analyte results) with no impact on performance</li>
+            <li>30<sup>+</sup> years of sensor-technology expertise</li>
+        </ul>
+    </sensor.text>
+    <sensor.button>IQM2 immediately detects, corrects and documents errors specific to an individual analyte─ensuring every patient test result meets rigorous quality specifications.</sensor.button>
+    <sensor.popup>GEM Premier 5000 sensor card and CO-Oximetry module measurement methodologies</sensor.popup>
+
+    <sensor.popup.table>
+        <table class="wtable" width="100%">
+            <thead>
+                <tr>
+                    <th height="45px" scope="col">Measurement Methodology</th>
+                    <th height="45px" scope="col">Parameters</th>
+                </tr>
+            </thead>
+            <tbody style="background-color:#ffffff">
+                <tr>
+                    <td>Amperometric</td>
+                    <td class="table-text"><i>p</i>O<sub>2</sub>, Glucose, Lactate</td>
+                </tr>
+                <tr>
+                    <td>Potentiometric</td>
+                    <td class="table-text">pH, <i>p</i>CO<sub>2</sub>, Na<sup>+</sup>, K<sup>+</sup> Ca<sup>++</sup>, Cl<sup>-</sup></td>
+                </tr>
+                <tr>
+                    <td>Conductivity</td>
+                    <td class="table-text">Hct</td>
+                </tr>
+                <tr>
+                    <td>Optical measurement<br/>(chemical lysing)</td>
+                    <td class="table-text">CO-Ox, tBili</td>
+                </tr>
+            </tbody>
+        </table>
+    </sensor.popup.table>
+
+    <nist.text>
+        NIST-Traceable Process Control Solutions (PCSs)
+        <p style="color:#212121; font-size:20px">5 PCSs continuously confirm sensor and PAK performance:</p>
+        <ul style="color:#212121; font-size:20px">
+            <li>Traceable to primary standards<sup>*</sup></li>
+            <li>Each PCS follows the same pathway as a sample and serves a specific function in the iQM2 process</li>
+            <li>Established target values monitor Medical Decision Levels (MDLs)—essential for accurate clinical decisions</li>
+        </ul>
+        <p class="footnote"><span style="margin-left: -4px;">*</span>Clinical &amp; Laboratory Standards Institute (CLSI) and National Institute of Standards and Technology (NIST)</p>
+    </nist.text>
+    <nist.button02>Each PCS is contained in an impermeable, air-tight bag, resistant to changes in barometric pressure or air contamination.</nist.button02>
+    <nist.button03>NIST-traceable PCSs ensure analytical performance of sensors and reagents, for a quality-assured sample, every time.</nist.button03>
+    <nist.button01>Potential for hundreds of PCS replicates to run daily, ensuring accuracy of each patient result (total number of replicates is dependent upon sample volume).</nist.button01>
+    <nist.popup01.title>Medical Decision Levels (MDLs): What and Why</nist.popup01.title>
+    <nist.popup01.text>
+        <ul>
+            <li>A decision level is a threshold value above and below which a particular patient management action is recommended</li>
+            <li>There may be several MDLs for any given analyte</li>
+            <li>Protocols and treatment algorithms that incorporate MDLs include:
+                <ul><li>Sepsis guidelines for Lactate and Glucose</li>
+                    <li>ARDSnet and ALVEOLI guidelines for <i>p</i>O<sub>2</sub> (P/F ratio)</li>
+                    <li>MetHb levels for Nitric Oxide therapy decisions <i>(e.g.</i>, Persistent Pulmonary Hypertension treatment in newborns)</li></ul></li></ul>
+    </nist.popup01.text>
+    <nist.popup02.title>Reference Range, Critical Value and Medical Decision Level</nist.popup02.title>
+    <nist.popup02.text>
+        <ul>
+            <li>Reference Range: Usually defined as the set of values covering 95% of the normal population</li>
+            <li>Critical Value: Lab value that must be immediately reported to a care provider</li>
+            <li>MDL: Concentration of an analyte, at which some medical action is indicated for proper patient care
+            </li>
+        </ul>
+        Examples below<br/><br/>
+
+        <table class="wtable2">
+            <thead>
+                <tr style="text-align: center;">
+                    <th scope="col"><font face="Helvetica, Arial, sans-serif"><b>Analyte</b></font></th>
+                    <th scope="col"><b><font face="Helvetica, Arial, sans-serif">Reference Range</font></b></th>
+                    <th scope="col"><b><font face="Helvetica, Arial, sans-serif">MDL</font></b></th>
+                    <th scope="col"><b><font face="Helvetica, Arial, sans-serif">Critical Value</font></b></th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="text-align:center;">
+                    <td><font color="#75787b">pH</font></td>
+                    <td><font color="#75787b">7.35-7.45</font></td>
+                    <td><font color="#75787b">7.30,7.45</font></td>
+                    <td><font color="#75787b">7.20,7.60</font></td>
+                </tr>
+                <tr style="text-align:center;">
+                    <td><font color="#75787b"><i>p</i>H</font></td>
+                    <td><font color="#75787b">83-108</font></td>
+                    <td><font color="#75787b">60</font></td>
+                    <td><font color="#75787b">40</font></td>
+                </tr>
+                <tr style="text-align:center;">
+                    <td><font color="#75787b">K<sup>*</sup></font></td>
+                    <td><font color="#75787b">3.5-5.1</font></td>
+                    <td><font color="#75787b">3.0,5.8</font></td>
+                    <td><font color="#75787b">2.8-7.8</font></td>
+                </tr>
+                <tr style="text-align:center;">
+                    <td><font color="#75787b">Lac</font></td>
+                    <td><font color="#75787b">0.36-0-75 (at rest)</font></td>
+                    <td><font color="#75787b">2.0</font></td>
+                    <td><font color="#75787b">≥3.4</font></td>
+                </tr>
+            </tbody>
+        </table>
+    </nist.popup02.text>
+    <nist.popup03.title>iQM2 Continuous Quality Checks Allow MDL Monitoring</nist.popup03.title>
+    <nist.popup03.text> <ul>
+        <li>Process Control Solutions (PCSs) monitor analyte performance and precision at MDLs</li>
+        <li>5 levels of PCSs (A, B, C, D and E allow for greater coverage of MDL requirements)</li>
+        <li>MDL monitoring with traditional Quality Control is limited
+            <ul>
+                <li>Quality controls are created at low, medium and high levels to monitor analyte precision acceptability</li>
+                <li>Each level is performed only once/day</li>
+            </ul></li>
+    </ul></nist.popup03.text>
+    <nist.popup04>
+        <p class="footnote popup">
+            Source:<br/>
+            Burtis C, Bruns D. <i>Tietz Fundamentals of Clinical Chemistry and Molecular Diagnostic</i>, 7th edition. St. Louis, MO: Elsevier Saunders. 2015:952-82.<br/>
+            Statland BE. <i>Clinical Decision Levels for Lab Test</i>, 2nd edition. Oradell, NJ: Medical Economics Company Inc. 1987. <br/>
+            Kost GJ. Table of Critical Limits, <i>Clinical Laboratory</i> Reference. 2013-2014(6-7).
+        </p>
+    </nist.popup04>
+    <nist.popup04.table>
+        <table class="" style="text-align: center;" width="100%">
+            <thead>
+                <tr style="background-color:#8C1D40">
+                    <td colspan="6" scope="col"><b><font color="#ffffff">MDLs/Analyte</font></b></td></tr>
+            </thead>
+
+            <thead>
+
+                <tr style="background-color:#7D98AB"><th scope="col"><font face="Helvetica, Arial, sans-serif" color="#ffffff">Analyte</font></th>
+                    <th scope="col"><font face="Helvetica, Arial, sans-serif" color="#ffffff"><b>Units</b></font></th>
+                    <th scope="col"><b><font face="Helvetica, Arial, sans-serif" color="#ffffff">MDL1</font></b></th>
+                    <th scope="col"><font face="Helvetica, Arial, sans-serif" color="#ffffff"><b>MDL2</b></font></th>
+                    <th scope="col"><font face="Helvetica, Arial, sans-serif" color="#ffffff"><b>MDL3</b></font></th>
+                    <th scope="col"><font face="Helvetica, Arial, sans-serif" color="#ffffff"><b>MDL4</b></font></th>
+                </tr>
+            </thead>
+
+            <tbody style="line-height: 23px;background-color:#ffffff">
+                <tr>
+                    <td>pH</td>
+                    <td>pH unit</td>
+                    <td>7.30</td>
+                    <td>7.35</td>
+                    <td>7.45</td>
+                    <td>-</td>
+
+                </tr>
+                <tr>
+                    <td><i>p</i>CO<sub>2</sub></td>
+                    <td>mmHg</td>
+                    <td>35</td>
+                    <td>50</td>
+                    <td>70</td>
+                    <td>-</td>
+                </tr>
+
+                <tr>
+                    <td><i>p</i>O<sub>2</sub></td>
+                    <td>mmHg</td>
+                    <td>30</td>
+                    <td>45</td>
+                    <td>60</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Na<sup>+</sup></td>
+                    <td>mmol/L</td>
+                    <td>115</td>
+                    <td>135</td>
+                    <td>150</td>
+                    <td>-</td>
+                </tr>
+
+                <tr>
+                    <td>K<sup>+</sup></td>
+                    <td>mmol/L</td>
+                    <td>3.0</td>
+                    <td>5.8</td>
+                    <td>7.5</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Cl<sup>-</sup></td>
+                    <td>mmol/L</td>
+                    <td>90</td>
+                    <td>112</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+
+                <tr>
+                    <td>Ca<sup>++</sup></td>
+                    <td>mmol/L</td>
+                    <td>0.37</td>
+                    <td>0.82</td>
+                    <td>1.58</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Glu</td>
+                    <td>mg/dL</td>
+                    <td>45</td>
+                    <td>120</td>
+                    <td>180</td>
+                    <td><font>350</font></td>
+                </tr>
+
+                <tr>
+                    <td>Lac</td>
+                    <td>mmol/L</td>
+                    <td>2.0</td>
+                    <td>5.0</td>
+                    <td>5.0</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Hct</td>
+                    <td>%</td>
+                    <td>21</td>
+                    <td>33</td>
+                    <td>56 (male)</td>
+                    <td>53 (female)</td>
+                </tr>
+
+                <tr>
+                    <td>tHb</td>
+                    <td>g/dL</td>
+                    <td>7.0</td>
+                    <td>10.5</td>
+                    <td>18 (male)</td>
+                    <td>17 (female)</td>
+                </tr>
+                <tr>
+                    <td>O<sub>2</sub>Hb</td>
+                    <td>%</td>
+                    <td>90.0</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+
+                <tr>
+                    <td>HHb</td>
+                    <td>%</td>
+                    <td>6.0</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>COHb</td>
+                    <td>%</td>
+                    <td>3</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>-</td>
+                </tr>
+
+                <tr>
+                    <td>MetHb</td>
+                    <td>%</td>
+                    <td>5</td>
+                    <td>10</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>sO<sub>2</sub></td>
+                    <td>%</td>
+                    <td>90</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+
+                <tr>
+                    <td>tBili</td>
+                    <td>mg/dL</td>
+                    <td>3.0 - 6.0</td>
+                    <td>14.0</td>
+                    <td>20.0</td>
+                    <td>-</td>
+                </tr>
+            </tbody>
+        </table>
+    </nist.popup04.table>
+    <nist.popup05>
+        <p class="footnote popup">
+            Source:<br/>
+            *R – References indicate Lactate should be trended for clearance<br/>
+            Levraut J, Ichai C, Petit I, et al. "Low Exogenous Lactate Clearance As An Early Predictor of Mortality in Normolactatemic Critically Ill Septic Patients", <i>Critical Care Medicine</i>. 2003; 31(3):705-10.<br/>
+            Note: All data based upon analyzer Operators Manuals
+        </p>
+    </nist.popup05>
+
+    <nist.popup05.table>
+        <table class="" style="text-align: center;" width="100%">
+            <thead>
+                <tr style="background-color:#8C1D40">
+                    <td colspan="12" scope="col"><b><font color="#ffffff">MDL Monitoring by Critical Care Analyzer</font></b></td></tr>
+            </thead>
+
+            <thead>
+
+                <tr style="background-color:#7D98AB"><th scope="col"><font face="Helvetica, Arial, sans-serif" color="#ffffff">Analyte</font></th>
+                    <th scope="col"><font face="Helvetica, Arial, sans-serif" color="#ffffff"><b>Units</b></font></th>
+                    <th with="23%" scope="col" colspan="3"><b><font face="Helvetica, Arial, sans-serif" color="#ffffff">GEM Premier 5000</font></b></th>
+                    <th scope="col" colspan="3"><font face="Helvetica, Arial, sans-serif" color="#ffffff"><b>Competitor A</b></font></th>
+                    <th scope="col" colspan="3"><font face="Helvetica, Arial, sans-serif" color="#ffffff"><b>Competitor B</b></font></th>
+                </tr>
+            </thead>
+
+            <tbody style="line-height: 23px;background-color:#ffffff">
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>MDL1</td>
+                    <td>MDL2</td>
+                    <td>MDL3</td>
+                    <td>MDL1</td>
+                    <td>MDL2</td>
+                    <td>MDL3</td>
+                    <td>MDL1</td>
+                    <td>MDL2</td>
+                    <td>MDL3</td>
+                </tr>
+                <tr>
+                    <td>pH</td>
+                    <td>pH unit</td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#c35048"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+
+                </tr>
+                <tr>
+                    <td><i>p</i>CO<sub>2</sub></td>
+                    <td>mmHg</td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                </tr>
+
+                <tr>
+                    <td><i>p</i>O<sub>2</sub></td>
+                    <td>mmHg</td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#c35048"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#c35048"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                </tr>
+                <tr>
+                    <td>Na<sup>+</sup></td>
+                    <td>mmol/L</td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#c35048"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                </tr>
+
+                <tr>
+                    <td>K<sup>+</sup></td>
+                    <td>mmol/L</td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                </tr>
+                <tr>
+                    <td>Cl<sup>-</sup></td>
+                    <td>mmol/L</td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                </tr>
+
+                <tr>
+                    <td>Ca<sup>++</sup></td>
+                    <td>mmol/L</td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#c35048"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#c35048"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                </tr>
+                <tr>
+                    <td>Glu</td>
+                    <td>mg/dL</td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#c35048"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                </tr>
+
+                <tr>
+                    <td>Lac</td>
+                    <td>mmol/L</td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td>R*</td>
+                    <td><font face="FontAwesome" color="#c35048"></font></td>
+                    <td>R*</td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td>R*</td>
+                </tr>
+                <tr>
+                    <td>Hct</td>
+                    <td>%</td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td>N/A</td>
+                    <td>N/A</td>
+                    <td>N/A</td>
+                    <td>N/A</td>
+                    <td>N/A</td>
+                    <td>N/A</td>
+                </tr>
+
+                <tr>
+                    <td>tHb</td>
+                    <td>g/dL</td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#c35048"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                </tr>
+                <tr>
+                    <td>O<sub>2</sub>Hb</td>
+                    <td>%</td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+
+                <tr>
+                    <td>HHb</td>
+                    <td>%</td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td><font face="FontAwesome" color="#c35048"></font></td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td>-</td>
+                    <td>-</td>
+
+                </tr>
+                <tr>
+                    <td>COHb</td>
+                    <td>%</td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#c35048"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#c35048"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                </tr>
+
+                <tr>
+                    <td>MetHb</td>
+                    <td>%</td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td>-</td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td>-</td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#c35048"></font></td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>sO<sub>2</sub></td>
+                    <td>%</td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>tBili</td>
+                    <td>mg/dL</td>
+                    <td>-</td><td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td>-</td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">MDLS monitored</td>
+                    <td>16/16</td>
+                    <td>14/14</td>
+                    <td>12/12</td>
+                    <td>13/16</td>
+                    <td>10/13</td>
+                    <td>9/11</td>
+                    <td>13/15</td>
+                    <td>11/13</td>
+                    <td>11/11</td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">% MDLS monitored</td>
+                    <td colspan="3">100%</td>
+                    <td colspan="3">80%</td>
+                    <td colspan="3">90%</td>
+                </tr>
+            </tbody>
+        </table></nist.popup05.table>
+
+    <coox.text>
+        CO-Oximetry
+        <p style="color:#212121; font-size:20px">Integrated CO-Oximetry for safe and efficient patient management:</p>
+        <ul style="color:#212121; font-size:20px">
+            <li>tHb - useful in blood transfusion management<sup>1</sup></li>
+            <li>MetHb - useful in Nitric Oxide treatment monitoring<sup>2</sup></li>
+            <li>tBili - useful in hyperbilirubinemia monitoring<sup>3</sup></li>
+        </ul>
+        <p style="color:#212121; font-size:14px;position:absolute; bottom:0px;">
+            1 Myers JG, Browne J. Point of care hematocrit and hemoglobin in cardiac surgery: a review. <i>Perfusion</i>. 2007 May;22(3):179-83.<br/>
+            2 Ancy J. Neonatal Critical Care Testing. <i>RT for Decision Makers in Respiratory Care</i>. 4 March, 2011. <br/>
+            3 Subcommittee on Hyperbilirubinemia, American Academy of Pediatrics, Clinical Practice Guidline: Management of hyperbilirubinemia in the newborn infant 35 or more weeks of gestation. <i>Pediatrics</i>. 2004 Jul;114(1):297-316.</p>
+    </coox.text>
+    <coox.button01>Absorbance spectra for CO-Ox analytes on GEM Premier 5000 system.</coox.button01>
+    <coox.button02>iQM2 automatically corrects for low-to-moderate interference concentrations, such as lipemia and turbidity.</coox.button02>
+    <coox.button03>High-resolution spectrometer quantitatively measures tHb and Hb derivative concentrations for unparalleled analytical performance.</coox.button03>
+    <coox.button04>Sample is chemically lysed for a more complete and accurate CO-Ox reading.</coox.button04>
+    <coox.popup01>
+        <div>
+            Testimonial
+            <p style="font-size: 48px;margin: 20px 0 35px 0;">
+                “[CO-Oximetry is] the only accurate, consistent and reliable method to determine hemodilution and establish transfusion thresholds based on nadir Hcts during cardiopulmonary bypass, and immediately post-cardiac surgery.”    </p>
+            <span style="font-size: 18px;">
+                <p>Gerard Myers, CCP, RRT<br/>
+                    <i>Manager, Cardiovascular Perfusion<br/>QEII Health Sciences Center</i><br/>
+                    <i>Nova Scotia, Canada</i></p>
+                <p>Point of Care Hematocrit and Hemoglobin in Cardiac Surgery: A Review. <i>Perfusion</i>. 2007;Vol. 22.</p>
+            </span>
+        </div>
+    </coox.popup01>
+    <coox.popup02>CO-Oximetry optical assembly includes Spectrophotometer and LED contained within the analyzer.</coox.popup02>
+    <coox.popup03>Broad absorbance spectra ensures accurate results. Multi-wavelength spectrophotometry measurement is not affected by moderate turbidity or hemolysis</coox.popup03>
+    <coox.popup03.img>GEM Premier 5000 CO-Oximetry and Total Bilirubin Absorbance Spectra</coox.popup03.img>
+
+
+    <test.text>
+        Test Menu
+        <p style="color:#212121; font-size:20px">GEM PAKs available in multiple menu and test-volume configurations to allow ultimate flexibility for any POCT location:</p>
+        <ul style="color:#212121; font-size:20px">
+            <li>More than 30 PAK test menu/volume configuration options</li>
+            <li>31 day use-life<sup>*</sup> and no refrigeration required</li>
+            <li>Standardization maximizes efficiency</li>
+        </ul>
+        <p style="color:#212121; font-size:14px">*21-day onboard use-life for 600-test PAK.</p>
+    </test.text>
+    <test.text.table>
+        <font size="3"><b>Flexible Customization</b><br/><br/></font>
+        Test volumes: 75, 150, 300, 450, 600<br/><br/>
+
+        <table class="wtable" width="100%">
+            <thead>
+                <tr>
+                    <th height="" scope="col">Menu</th>
+                </tr>
+            </thead>
+            <tbody style="background-color:#ffffff">
+                <tr>
+                    <td>Blood Gas, Hct, tHb, O<sub>2</sub>Hb, HHb, COHb, MetHb, sO<sub>2</sub>, tBili**</td>
+                </tr>
+                <tr>
+                    <td>Blood Gas, Electrolytes, Hct, tHb, O<sub>2</sub>Hb, HHb, COHb, MetHb, sO<sub>2</sub>, tBili**</td>
+                </tr>
+                <tr>
+                    <td>Blood Gas, Electrolytes, Glu, Lac, Hct, tHb, O<sub>2</sub>Hb, HHb, COHb, MetHb, sO<sub>2</sub>, tBili**</td>
+                </tr>
+            </tbody>
+        </table>
+        <br/><br/>
+        **PAKs available with or without tBili.
+    </test.text.table>
+
+    <test.popup01>
+        <div>
+            Testimonial
+            <p style="font-size: 48px;margin: 20px 0 35px 0;">
+                “The integrated CO-Oximetry module enables full oxygenation status from a single sample. This is key [for labs seeking] to reduce capital expenditures, maintenance and costs.”
+            </p>
+            <span style="font-size: 18px;">
+                <p>Edward Schrarger, RRT<br/>
+                    <i>Respiratory Therapy<br/>
+                        Jamaica Hospital Medical Center</i><br/>
+                    <i>New York, USA</i></p>
+                <p>Clinical Performance Evaluation of the GEM Premier 4000 Analyzer. Clinical Study performed at Jamaica Hospital Medical Center, Jamaica, NY, USA. Data on file, IL.</p>
+            </span>
+        </div>
+    </test.popup01>
+
+    <test.popup02.table>
+        <table class="" style="text-align: center;" width="100%">
+            <thead>
+                <tr style="background-color:#8C1D40;color:#ffffff">
+                    <td width="30%" scope="col"><b>Menu</b></td>
+                    <td width="10%" scope="col"><b>75</b></td>
+                    <td width="10%" scope="col"><b>150</b></td>
+                    <td width="10%" scope="col"><b>300</b></td>
+                    <td width="10%" scope="col"><b>450</b></td>
+                    <td width="10%" scope="col"><b>600<sub>†</sub></b></td>
+                    <td width="20%" scope="col"><b>Onboard<br/>Use-life</b></td>
+                </tr>
+            </thead>
+            <tbody style="line-height: 23px;background-color:#ffffff">
+
+                <tr>
+                    <td height="80px">Blood Gas*, Hct, tHb, O<sub>2</sub>Hb, HHb, COHb, MetH, sO<sub>2</sub>, tBili<sup style="top: -0.8em!important;">††</sup></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td>31 Days</td>
+                </tr>
+                <tr>
+                    <td height="80px">Blood Gas*, Electrolytes**, Hct, tHb, O<sub>2</sub>Hb, HHb, COHb, MetHb, sO<sub>2</sub>, tBili<sup style="top: -0.8em!important;">††</sup></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td>31 Days</td>
+                </tr>
+                <tr>
+                    <td height="80px">Blood Gas*, Electrolytes**, Glu, Lac, Hct, tHb, O<sub>2</sub>Hb, HHb, COHb, MetHb, sO<sub>2</sub>, tBili<sup style="top: -0.8em!important;">††</sup></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td>31 Days</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><font color="#ffffff">* Blood Gas = pH, <i>p</i>CO<sub>2</sub>, <i>p</i>O<sub>2</sub>   <span style="margin-left: 20px;"><sup style="top: -0.8em!important;">†</sup> Onboard use-life is 21 days.</span></font></p>
+        <p><font color="#ffffff">** Electrolytes = pH, Na<sup>+</sup>, K<sup>+</sup>, Ca<sup>++</sup>, Cl<sup>-</sup>  <span style="margin-left: 20px;"><sup style="top: -0.8em!important;">††</sup> Cartridges available with or without tBili</span></font></p>
+
+    </test.popup02.table>
+
+    <test.popup03.table>
+        <table class="" style="text-align: center;" width="100%">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th colspan="5" style="background-color:#f6a800" scope="col"><font face="Helvetica, Arial, sans-serif" color="#ffffff"><b>GEM Premier 4000 System Test Volumes</b></font></th>
+                    <th></th>
+                </tr></thead>
+
+            <thead>
+                <tr style="background-color:#8C1D40;color:#ffffff">
+                    <td width="30%" scope="col"><b>Menu</b></td>
+                    <td width="10%" scope="col"><b>75</b></td>
+                    <td width="10%" scope="col"><b>150</b></td>
+                    <td width="10%" scope="col"><b>300</b></td>
+                    <td width="10%" scope="col"><b>450</b></td>
+                    <td width="10%" scope="col"><b>600<sub>†</sub></b></td>
+                    <td width="20%" scope="col"><b>Onboard<br/>Use-life</b></td>
+                </tr>
+            </thead>
+            <tbody style="line-height: 23px;background-color:#ffffff">
+
+                <tr>
+                    <td height="80px">Blood Gas*, Hct, tHb, O<sub>2</sub>Hb, HHb, COHb, MetH, sO<sub>2</sub>tBili<sup>††</sup></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td>30 Days</td>
+                </tr>
+                <tr>
+                    <td height="80px">Blood Gas*, Electrolytes**, Hct, tHb, O<sub>2</sub>Hb, HHb, COHb, MetHb, sO<sub>2</sub>, tBili<sup>††</sup></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td>30 Days</td>
+                </tr>
+                <tr>
+                    <td height="80px">Blood Gas*, Electrolytes**, Glu, Lac, Hct, tHb, O<sub>2</sub>Hb, HHb, COHb, MetHb, sO<sub>2</sub>, tBili<sup>††</sup></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td><font face="FontAwesome" color="#69cc22"></font></td>
+                    <td>30 Days</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><font color="#ffffff">* Blood Gas = pH, <i>p</i>CO<sub>2</sub>, <i>p</i>O<sub>2</sub>   <span style="margin-left: 20px;">† Onboard use-life is 21 days.</span></font></p>
+        <p><font color="#ffffff">** Electrolytes = pH, Na<sup>+</sup>, K<sup>+</sup>, Ca<sup>++</sup>, Cl<sup>-</sup>  <span style="margin-left: 20px;">†† Cartridges available with or without tBili</span></font></p>
+    </test.popup03.table>
+
+    <test.popup04.table>
+        <table class="" style="text-align: center;" width="100%">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th colspan="5" style="background-color:#739849" scope="col"><font face="Helvetica, Arial, sans-serif" color="#ffffff"><b>GEM Premier 3500 System</b></font></th>
+                    <th></th>
+                </tr></thead>
+
+            <thead>
+                <tr style="background-color:#8C1D40;color:#ffffff">
+                    <td width="50%" scope="col"><b>Menu</b></td>
+                    <td width="25%" scope="col"><b>Tests/PAK</b></td>
+                    <td width="25%" scope="col"><b>Onboard Use-life<br/>(weeks)</b></td>
+                </tr>
+            </thead>
+            <tbody style="line-height: 23px;background-color:#ffffff">
+                <tr>
+                    <td rowspan="5" height="80px">Blood Gas*, Hct</td>
+                    <td>75</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>100</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>300</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>450</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>600</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td rowspan="5" height="80px">Blood Gas*, Electrolytes**, Hct</td>
+                    <td>75</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>100</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>300</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>450</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>600</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td rowspan="5" height="80px">Blood Gas*, Electrolytes**, Glu, Lac, Hct</td>
+                    <td>75</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>100</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>300</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>450</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>600</td>
+                    <td>2</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><font color="#ffffff">* Blood Gas = pH, <i>p</i>CO<sub>2</sub>, <i>p</i>O<sub>2</sub></font></p>
+        <p><font color="#ffffff">** Electrolytes = pH, Na<sup>+</sup>, K<sup>+</sup>, Ca<sup>++</sup>, Cl<sup>-</sup></font></p>
+    </test.popup04.table>
+
+
+
+    <gemweb5>GEMweb Plus 500<br/>Custom Connectivity
+        <p style="color:#212121; font-size:20px">Customizable connectivity and automated functionality for complete management of analyzers, operators and data oversight.</p></gemweb5>
+    <simplify.link>01<span style="margin-left: 50px;">Simplify POCT</span></simplify.link>
+    <poct.link>02<span style="margin-left: 50px;">Centralize POCT</span></poct.link>
+
+    <gemweb5.popup01><div>
+        Testimonial
+        <p style="font-size: 48px;margin: 20px 0 35px 0;">
+            “GEMweb Plus saves me at least an hour each day that I would otherwise have to spend administering analyzers all over the hospital.”
+        </p>
+        <span style="font-size: 18px;">
+            <p>Robert Salvi, RPFT<br/>
+                <i>Manager of Medical Services<br/>
+                    Stamford Hospital</i><br/>
+                <i>Connecticut, USA</i></p>
+            <p>IL Customer Case Study. Data on file, IL.</p>
+        </span>
+    </div>
+    </gemweb5.popup01>
+    <gemweb5.popup02.title>Intuitive, simple dashboard, accessible from any analyzer, PC or tablet</gemweb5.popup02.title>
+    <gemweb5.popup02>Access all data from a single dashboard, enhancing patient safety, quality management and compliance</gemweb5.popup02>
+    <gemweb5.popup03>Provides customizable connectivity and automated functionality for complete management of analyzers, operators and data oversight.</gemweb5.popup03>
+    <gemweb5.popup03.01>Information Control</gemweb5.popup03.01>
+    <gemweb5.popup03.02>Analyzer Control</gemweb5.popup03.02>
+    <gemweb5.popup03.03>Operator Management</gemweb5.popup03.03>
+    <gemweb5.popup03.04>HIS/LIS/EMR</gemweb5.popup03.04>
+    <gemweb5.popup03.05>Remote Access</gemweb5.popup03.05>
+    <gemweb5.popup04>Seamless data integration for centralized management and simplified point-of-care</gemweb5.popup04>
+    <gemweb5.popup04.01><b>Seamless<br/></b>Data Integration</gemweb5.popup04.01>
+    <gemweb5.popup04.02>HIS/LIS/EMR</gemweb5.popup04.02>
+    <gemweb5.popup04.03>Single unified database</gemweb5.popup04.03>
+    <gemweb5.popup04.04>Order download</gemweb5.popup04.04>
+    <gemweb5.popup04.05>Open connectivity to 3rd party devices</gemweb5.popup04.05>
+
+    <simplify.text>
+        Simplify POCT
+        <ul style="color:#212121; font-size:20px">
+            <li>Simple web access from any browser</li>
+            <li>Optimized interface for access from<br/>analyzer and tablet screens</li>
+            <li>Easy at-a-glance dashboard</li>
+            <li>Real-time remote management: full<br/>access to analyzer configuration with <br/>no testing interruption</li>
+            <li>Total automated management of<br/> operators with multi-level authorization<br/>and traceability of users, actions and<br/>competence</li>
+        </ul>
+    </simplify.text>
+    <simplify.popup>Combines management of information, analyzers and operators into one easy-to-use package</simplify.popup>
+    <simplify.popup.01><b>Simplified Point-of-Care<br/></b>Operator</simplify.popup.01>
+    <simplify.popup.02>Remote access of GEM systems from GEM systems</simplify.popup.02>
+    <simplify.popup.03>Access complete patient history</simplify.popup.03>
+    <simplify.popup.04>Operator certification</simplify.popup.04>
+
+    <poct.text>
+        Centralize POCT
+        <ul style="color:#212121; font-size:20px">
+            <li>Single unified database for patient<br/>sample and historical result access</li>
+            <li>Connects to iQM/iQM2 data on GEM<br/>Premier 3500/4000/5000 systems</li>
+            <li>Customizable connectivity with<br/>multiple connections, including patient<br/>monitors, EHR and ADT</li>
+            <li>Open connectivity, including analyzers<br/>from non-IL manufacturers</li>
+        </ul>
+
+        <p class="footnote"><span style="margin-left: -9px;">†</span> Contact your local Werfen representative for information on non-IL device connection details and availability.
+        </p>
+    </poct.text>
+    <poct.popup>Designed to centralize operator supervision, quality management and full traceability, all from a single interface, whether accessed in the central lab, at the point-of-care or remotely from an analyzer, PC or tablet</poct.popup>
+    <poct.popup.01><b>Centralized Management</b><br/>
+        Central Laboratory/POC Supervisor</poct.popup.01>
+    <poct.popup.02>Access from any device</poct.popup.02>
+    <poct.popup.03>Remote management of analyzer in the network</poct.popup.03>
+    <poct.popup.04>Enhanced reports and audit logs</poct.popup.04>
+    <poct.popup.05>Centralized samples and analyzer configurations</poct.popup.05>
+    <poct.popup.06>Multi-level operator access and automatic certification</poct.popup.06>
+    <poct.popup.07>Automatic iQM/iQM2 reports</poct.popup.07>
+</translation>

@@ -75,10 +75,15 @@ flutter:
     - assets/
     - assets/contents/
     - assets/contents/acl-top-50-series-family/
+    - assets/contents/acl-top-50-series-family/index/
     - assets/contents/gem-premier-5000/
+    - assets/contents/gem-premier-5000/index/
     - assets/contents/gem-premier-chemstat/
+    - assets/contents/gem-premier-chemstat/index/
     - assets/contents/hemocell/
+    - assets/contents/hemocell/index/
     - assets/contents/iqm2/
+    - assets/contents/iqm2/index/
     - assets/contents/video-html/
 
   # An image asset can refer to one or more resolution-specific "variants", see
