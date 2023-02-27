@@ -45,6 +45,7 @@ dependencies:
   flutter_inappwebview: ^5.7.2+3
   webview_flutter_wkwebview: ^3.0.2
   webview_windows: ^0.2.2
+  pdfx: ^2.3.0
 
 
 dev_dependencies:
@@ -73,6 +74,12 @@ flutter:
   assets:
     - assets/
     - assets/contents/
+    - assets/contents/acl-top-50-series-family/
+    - assets/contents/gem-premier-5000/
+    - assets/contents/gem-premier-chemstat/
+    - assets/contents/hemocell/
+    - assets/contents/iqm2/
+    - assets/contents/video-html/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
