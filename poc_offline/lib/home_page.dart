@@ -60,7 +60,7 @@ class _HomePageState extends State<HomePage> {
           ...pdfFiles.map((filename) => ListTile(title: Text(filename), onTap: () async {
             final path = "assets/contents/$filename";
             final file = await loadAsset(path);
-            openPdf(context, file);
+            openHTML(context, "", path);
           })),
           const Padding(
             padding: EdgeInsets.all(16.0),
