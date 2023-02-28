@@ -68,6 +68,7 @@ class _HTMLViewerPageState extends State<HTMLViewerPage> {
         await _controller.setBackgroundColor(Colors.transparent);
         await _controller.setPopupWindowPolicy(WebviewPopupWindowPolicy.allow);
         await _controller.loadUrl(getAssetFileUrl(url));
+        _controller.openDevTools();
         _controller.webMessage.listen((event) {
           print(event);
         });

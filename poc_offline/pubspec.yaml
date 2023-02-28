@@ -84,7 +84,14 @@ flutter:
     - assets/contents/hemocell/index/
     - assets/contents/iqm2/
     - assets/contents/iqm2/index/
-    - assets/contents/video-html/
+    - assets/contents/calc/
+    - assets/contents/calc/assets/
+    - assets/contents/calc/assets/calendar/
+    - assets/contents/calc/assets/calendar/font/
+    - assets/contents/calc/assets/calendar/style/
+    - assets/contents/calc/assets/css/
+    - assets/contents/calc/assets/fonts/
+    - assets/contents/calc/assets/ladda/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

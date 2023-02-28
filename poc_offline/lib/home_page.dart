@@ -35,7 +35,7 @@ class _HomePageState extends State<HomePage> {
     "gem-premier-chemstat",
     "hemocell",
     "iqm2",
-    //"video-html",
+    "calc",
   ];
 
   final String _title = 'PoC Offline';
